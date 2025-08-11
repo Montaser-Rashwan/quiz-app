@@ -6,7 +6,7 @@ import { saveRecentScore } from '../../../lib/utils';
 import QuestionCard from '../../../components/QuestionCard';
 import Loader from '../../../components/Loader';
 
-const MAX_QUESTIONS = 20; // Reduced for demo
+const MAX_QUESTIONS = 200; // Reduced for demo
 const CORRECT_BONUS = 5;
 
 export default function Game({ params }) {
