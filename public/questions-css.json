@@ -1,0 +1,1458 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "choice1": "Cascading Style Sheets",
+    "choice2": "Colorful Style Syntax",
+    "choice3": "Computer Style Script",
+    "choice4": "Creative Styling System",
+    "answer": 1
+  },
+  {
+    "question": "Which HTML attribute is used to link an external CSS file?",
+    "choice1": "src",
+    "choice2": "href",
+    "choice3": "style",
+    "choice4": "link",
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "choice1": "text-color",
+    "choice2": "color",
+    "choice3": "font-color",
+    "choice4": "text-style",
+    "answer": 2
+  },
+  {
+    "question": "How do you insert a comment in a CSS file?",
+    "choice1": "// this is a comment",
+    "choice2": "/* this is a comment */",
+    "choice3": "<!-- this is a comment -->",
+    "choice4": "' this is a comment",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "choice1": "bgcolor",
+    "choice2": "background-color",
+    "choice3": "color",
+    "choice4": "bg-color",
+    "answer": 2
+  },
+  {
+    "question": "How do you center text in CSS?",
+    "choice1": "text-align: center;",
+    "choice2": "align: center;",
+    "choice3": "text-center: true;",
+    "choice4": "font-align: center;",
+    "answer": 1
+  },
+  {
+    "question": "Which property controls the font size?",
+    "choice1": "text-size",
+    "choice2": "font-style",
+    "choice3": "text-style",
+    "choice4": "font-size",
+    "answer": 4
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "choice1": "font-weight: bold;",
+    "choice2": "text-bold: true;",
+    "choice3": "font: bold;",
+    "choice4": "text-weight: bold;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to add space inside an element?",
+    "choice1": "margin",
+    "choice2": "padding",
+    "choice3": "spacing",
+    "choice4": "inner-space",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to add space outside an element?",
+    "choice1": "padding",
+    "choice2": "spacing",
+    "choice3": "margin",
+    "choice4": "outer-space",
+    "answer": 3
+  },
+  {
+    "question": "How do you make a list without bullets?",
+    "choice1": "list-type: none;",
+    "choice2": "list-style-type: none;",
+    "choice3": "bullet: none;",
+    "choice4": "list-style: none;",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to create rounded corners?",
+    "choice1": "border-corner",
+    "choice2": "border-radius",
+    "choice3": "corner-radius",
+    "choice4": "border-round",
+    "answer": 2
+  },
+  {
+    "question": "How do you hide an element in CSS?",
+    "choice1": "visibility: hidden;",
+    "choice2": "display: none;",
+    "choice3": "hide: true;",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "choice1": "font-family",
+    "choice2": "font-style",
+    "choice3": "text-font",
+    "choice4": "font-type",
+    "answer": 1
+  },
+  {
+    "question": "How do you link CSS to HTML using an internal style sheet?",
+    "choice1": "<style src='styles.css'>",
+    "choice2": "<link rel='stylesheet'>",
+    "choice3": "<style>",
+    "choice4": "<css>",
+    "answer": 3
+  },
+  {
+    "question": "Which symbol is used to denote a class in CSS?",
+    "choice1": "#",
+    "choice2": ".",
+    "choice3": "_",
+    "choice4": "*",
+    "answer": 2
+  },
+  {
+    "question": "Which symbol is used to denote an ID in CSS?",
+    "choice1": ".",
+    "choice2": "_",
+    "choice3": "#",
+    "choice4": "$",
+    "answer": 3
+  },
+  {
+    "question": "How do you select all elements with class 'example'?",
+    "choice1": "#example",
+    "choice2": ".example",
+    "choice3": "example",
+    "choice4": "*example",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the width of an element?",
+    "choice1": "size",
+    "choice2": "width",
+    "choice3": "length",
+    "choice4": "measure",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the height of an element?",
+    "choice1": "height",
+    "choice2": "size",
+    "choice3": "length",
+    "choice4": "measure",
+    "answer": 1
+  },
+   {
+    "question": "Which CSS property is used to control the spacing between letters?",
+    "choice1": "text-spacing",
+    "choice2": "letter-spacing",
+    "choice3": "word-spacing",
+    "choice4": "char-spacing",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the opacity of an element?",
+    "choice1": "transparency",
+    "choice2": "opacity",
+    "choice3": "visible",
+    "choice4": "fade",
+    "answer": 2
+  },
+  {
+    "question": "How do you make text italic using CSS?",
+    "choice1": "font-style: italic;",
+    "choice2": "text-style: italic;",
+    "choice3": "font-italic: true;",
+    "choice4": "style: italic;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to underline text?",
+    "choice1": "text-decoration: line;",
+    "choice2": "text-underline: true;",
+    "choice3": "text-decoration: underline;",
+    "choice4": "underline: true;",
+    "answer": 3
+  },
+  {
+    "question": "What is the correct CSS syntax for setting all margins to 10px?",
+    "choice1": "margin: 10px;",
+    "choice2": "margin: 10px 10px 10px 10px;",
+    "choice3": "All of the above",
+    "choice4": "margin-all: 10px;",
+    "answer": 3
+  },
+  {
+    "question": "Which CSS unit is relative to the font size of the root element?",
+    "choice1": "em",
+    "choice2": "px",
+    "choice3": "rem",
+    "choice4": "pt",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to align items inside a flex container?",
+    "choice1": "align-items",
+    "choice2": "justify-content",
+    "choice3": "flex-align",
+    "choice4": "item-align",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to distribute space around flex items?",
+    "choice1": "align-items",
+    "choice2": "justify-content",
+    "choice3": "flex-justify",
+    "choice4": "space-around",
+    "answer": 2
+  },
+  {
+    "question": "How do you set a background image in CSS?",
+    "choice1": "background: image.jpg;",
+    "choice2": "bg-image: url('image.jpg');",
+    "choice3": "background-image: url('image.jpg');",
+    "choice4": "image: url('image.jpg');",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to repeat a background image?",
+    "choice1": "background-repeat",
+    "choice2": "repeat",
+    "choice3": "bg-repeat",
+    "choice4": "image-repeat",
+    "answer": 1
+  },
+  {
+    "question": "How do you prevent a background image from repeating?",
+    "choice1": "background-repeat: no-repeat;",
+    "choice2": "repeat: none;",
+    "choice3": "background: no-repeat;",
+    "choice4": "bg-repeat: stop;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to position an element relative to its normal position?",
+    "choice1": "absolute",
+    "choice2": "fixed",
+    "choice3": "relative",
+    "choice4": "static",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to position an element relative to the browser window?",
+    "choice1": "relative",
+    "choice2": "absolute",
+    "choice3": "fixed",
+    "choice4": "sticky",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to make an element scroll with the page until a certain point?",
+    "choice1": "fixed",
+    "choice2": "absolute",
+    "choice3": "relative",
+    "choice4": "sticky",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to specify the stack order of elements?",
+    "choice1": "order",
+    "choice2": "z-index",
+    "choice3": "stack",
+    "choice4": "position-index",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'display' makes an element a block-level flex container?",
+    "choice1": "flex",
+    "choice2": "inline-flex",
+    "choice3": "block-flex",
+    "choice4": "flex-block",
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property is used to control the order of flex items?",
+    "choice1": "order",
+    "choice2": "flex-order",
+    "choice3": "item-order",
+    "choice4": "sort",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the initial main size of a flex item?",
+    "choice1": "flex",
+    "choice2": "flex-grow",
+    "choice3": "flex-basis",
+    "choice4": "flex-size",
+    "answer": 3
+  },
+  {
+    "question": "Which property controls how much a flex item grows relative to others?",
+    "choice1": "flex",
+    "choice2": "flex-grow",
+    "choice3": "flex-shrink",
+    "choice4": "flex-basis",
+    "answer": 2
+  },
+  {
+    "question": "Which property controls how much a flex item shrinks?",
+    "choice1": "flex",
+    "choice2": "flex-grow",
+    "choice3": "flex-shrink",
+    "choice4": "flex-basis",
+    "answer": 3
+  },
+   {
+    "question": "Which CSS property is used to create a shadow effect for text?",
+    "choice1": "text-shadow",
+    "choice2": "shadow",
+    "choice3": "text-effect: shadow",
+    "choice4": "font-shadow",
+    "answer": 1
+  },
+  {
+    "question": "How do you set a box shadow around an element?",
+    "choice1": "shadow: 2px 2px 5px #000;",
+    "choice2": "box-shadow: 2px 2px 5px #000;",
+    "choice3": "element-shadow: 2px 2px 5px #000;",
+    "choice4": "border-shadow: 2px 2px 5px #000;",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to control how white space inside an element is handled?",
+    "choice1": "text-space",
+    "choice2": "white-space",
+    "choice3": "space-control",
+    "choice4": "text-wrap",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'white-space' prevents text from wrapping?",
+    "choice1": "normal",
+    "choice2": "wrap",
+    "choice3": "nowrap",
+    "choice4": "no-wrap",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to specify the minimum height of an element?",
+    "choice1": "min-height",
+    "choice2": "height-min",
+    "choice3": "minimum-height",
+    "choice4": "least-height",
+    "answer": 1
+  },
+  {
+    "question": "Which property sets the maximum width of an element?",
+    "choice1": "max-width",
+    "choice2": "width-max",
+    "choice3": "maximum-width",
+    "choice4": "limit-width",
+    "answer": 1
+  },
+  {
+    "question": "What does 'position: absolute;' do?",
+    "choice1": "Positions relative to the nearest positioned ancestor",
+    "choice2": "Positions relative to the viewport",
+    "choice3": "Positions relative to its normal position",
+    "choice4": "Positions at the bottom of the page",
+    "answer": 1
+  },
+  {
+    "question": "Which CSS selector targets all <p> elements inside a <div>?",
+    "choice1": "div.p",
+    "choice2": "div p",
+    "choice3": "div+p",
+    "choice4": "p inside div",
+    "answer": 2
+  },
+  {
+    "question": "What does the 'border-box' value of 'box-sizing' include?",
+    "choice1": "Only content",
+    "choice2": "Content and padding",
+    "choice3": "Content, padding, and border",
+    "choice4": "Padding and border only",
+    "answer": 3
+  },
+  {
+    "question": "How do you set the 'box-sizing' property globally for all elements?",
+    "choice1": "* { box-model: border-box; }",
+    "choice2": "all { box-sizing: border-box; }",
+    "choice3": "* { box-sizing: border-box; }",
+    "choice4": "body { box-sizing: border-box; }",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to change the cursor style when hovering over an element?",
+    "choice1": "mouse",
+    "choice2": "cursor",
+    "choice3": "pointer",
+    "choice4": "hover-style",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'cursor' shows a pointer hand?",
+    "choice1": "arrow",
+    "choice2": "default",
+    "choice3": "pointer",
+    "choice4": "hand",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to make text transform to uppercase?",
+    "choice1": "text-transform: upper;",
+    "choice2": "text-transform: uppercase;",
+    "choice3": "text-case: upper;",
+    "choice4": "font-transform: caps;",
+    "answer": 2
+  },
+  {
+    "question": "How do you center a block element horizontally?",
+    "choice1": "margin: 0 auto;",
+    "choice2": "text-align: center;",
+    "choice3": "align: center;",
+    "choice4": "position: center;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the font weight?",
+    "choice1": "font-style",
+    "choice2": "font-weight",
+    "choice3": "text-weight",
+    "choice4": "font-bold",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'display' makes elements appear on the same line?",
+    "choice1": "block",
+    "choice2": "inline-block",
+    "choice3": "flex",
+    "choice4": "inline",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to control the flow and formatting of content?",
+    "choice1": "display",
+    "choice2": "position",
+    "choice3": "layout",
+    "choice4": "format",
+    "answer": 1
+  },
+  {
+    "question": "Which CSS unit is relative to the font size of the parent element?",
+    "choice1": "px",
+    "choice2": "em",
+    "choice3": "rem",
+    "choice4": "vh",
+    "answer": 2
+  },
+  {
+    "question": "What does 'vh' stand for in CSS?",
+    "choice1": "viewport height",
+    "choice2": "visible height",
+    "choice3": "vertical height",
+    "choice4": "view height",
+    "answer": 1
+  },
+  {
+    "question": "What does '100vw' represent?",
+    "choice1": "100% of the viewport width",
+    "choice2": "100% of the window height",
+    "choice3": "100% of the element width",
+    "choice4": "100% of the screen resolution",
+    "answer": 1
+  },
+   {
+    "question": "Which property is used to define a CSS grid container?",
+    "choice1": "display: flex;",
+    "choice2": "display: grid;",
+    "choice3": "display: block;",
+    "choice4": "display: inline;",
+    "answer": 2
+  },
+  {
+    "question": "How do you define the number of columns in a CSS grid?",
+    "choice1": "grid-columns: 3;",
+    "choice2": "grid-template-columns: 100px 100px 100px;",
+    "choice3": "columns: 3;",
+    "choice4": "grid-layout: columns(3);",
+    "answer": 2
+  },
+  {
+    "question": "Which property places an item in a named grid area?",
+    "choice1": "grid-area",
+    "choice2": "grid-place",
+    "choice3": "grid-item",
+    "choice4": "grid-box",
+    "answer": 1
+  },
+  {
+    "question": "How do you create a 3-column grid with equal width columns?",
+    "choice1": "grid-template-columns: auto auto auto;",
+    "choice2": "grid-template-columns: 33% 33% 33%;",
+    "choice3": "grid-template-columns: repeat(3, 1fr);",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to control the gap between grid rows and columns?",
+    "choice1": "gap",
+    "choice2": "grid-gap",
+    "choice3": "space-between",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which CSS function is used to repeat a pattern in grid or flex?",
+    "choice1": "repeat()",
+    "choice2": "loop()",
+    "choice3": "multiple()",
+    "choice4": "grid-repeat()",
+    "answer": 1
+  },
+  {
+    "question": "What does 'fr' stand for in CSS Grid?",
+    "choice1": "fraction",
+    "choice2": "free space",
+    "choice3": "flexible range",
+    "choice4": "frame",
+    "answer": 1
+  },
+  {
+    "question": "How do you make a grid item span 2 columns?",
+    "choice1": "grid-column: span 2;",
+    "choice2": "col-span: 2;",
+    "choice3": "grid-span: 2;",
+    "choice4": "column: 2;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to align grid items along the block (vertical) axis?",
+    "choice1": "justify-items",
+    "choice2": "align-items",
+    "choice3": "grid-align",
+    "choice4": "item-align",
+    "answer": 2
+  },
+  {
+    "question": "Which property aligns grid items along the inline (horizontal) axis?",
+    "choice1": "align-items",
+    "choice2": "justify-items",
+    "choice3": "grid-justify",
+    "choice4": "horizontal-align",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'position' removes an element from the normal document flow?",
+    "choice1": "static",
+    "choice2": "relative",
+    "choice3": "absolute",
+    "choice4": "fixed",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to create a CSS transition effect?",
+    "choice1": "animate",
+    "choice2": "transition",
+    "choice3": "effect",
+    "choice4": "move",
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property is used to rotate an element?",
+    "choice1": "transform: rotate()",
+    "choice2": "rotate: 45deg;",
+    "choice3": "transform: spin(45deg);",
+    "choice4": "rotation: 45deg;",
+    "answer": 1
+  },
+  {
+    "question": "How do you scale an element to 1.5 times its size?",
+    "choice1": "transform: size(1.5);",
+    "choice2": "transform: scale(1.5);",
+    "choice3": "scale: 1.5;",
+    "choice4": "transform: grow(1.5);",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to delay a CSS animation?",
+    "choice1": "animation-delay",
+    "choice2": "delay",
+    "choice3": "start-delay",
+    "choice4": "anim-delay",
+    "answer": 1
+  },
+  {
+    "question": "Which property controls the speed curve of a transition?",
+    "choice1": "transition-timing",
+    "choice2": "timing-function",
+    "choice3": "transition-timing-function",
+    "choice4": "curve",
+    "answer": 3
+  },
+  {
+    "question": "Which value makes a transition start slow, then fast, then end slow?",
+    "choice1": "linear",
+    "choice2": "ease",
+    "choice3": "ease-in",
+    "choice4": "ease-in-out",
+    "answer": 2
+  },
+  {
+    "question": "How do you repeat a CSS animation 3 times?",
+    "choice1": "animation-repeat: 3;",
+    "choice2": "animation-iteration-count: 3;",
+    "choice3": "repeat: 3;",
+    "choice4": "anim-count: 3;",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to define a keyframe animation?",
+    "choice1": "@keyframes",
+    "choice2": "@animate",
+    "choice3": "@animation",
+    "choice4": "@move",
+    "answer": 1
+  },
+  {
+    "question": "Which selector targets elements with both class 'btn' and 'primary'?",
+    "choice1": ".btn, .primary",
+    "choice2": "btn.primary",
+    "choice3": ".btn .primary",
+    "choice4": ".btn.primary",
+    "answer": 4
+  },
+  {
+    "question": "Which selector targets all <input> elements with type='text'?",
+    "choice1": "input.text",
+    "choice2": "input[type='text']",
+    "choice3": "text-input",
+    "choice4": "input:text",
+    "answer": 2
+  },
+  {
+    "question": "Which pseudo-class is used when hovering over an element?",
+    "choice1": ":hover",
+    "choice2": ":mouse",
+    "choice3": ":over",
+    "choice4": ":active",
+    "answer": 1
+  },
+  {
+    "question": "Which pseudo-class applies to a button when clicked?",
+    "choice1": ":hover",
+    "choice2": ":focus",
+    "choice3": ":active",
+    "choice4": ":click",
+    "answer": 3
+  },
+  {
+    "question": "Which pseudo-class applies to a link that has been visited?",
+    "choice1": ":link",
+    "choice2": ":new",
+    "choice3": ":visited",
+    "choice4": ":old",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to prevent text selection?",
+    "choice1": "user-select: none;",
+    "choice2": "select: none;",
+    "choice3": "text-select: disabled;",
+    "choice4": "unselectable: on;",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'float' moves an element to the right?",
+    "choice1": "right",
+    "choice2": "end",
+    "choice3": "float-right",
+    "choice4": "inline-end",
+    "answer": 1
+  },
+  {
+    "question": "Which property clears the effect of floating elements?",
+    "choice1": "clear",
+    "choice2": "float-clear",
+    "choice3": "overflow",
+    "choice4": "Both 1 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'overflow' hides overflowing content?",
+    "choice1": "visible",
+    "choice2": "scroll",
+    "choice3": "auto",
+    "choice4": "hidden",
+    "answer": 4
+  },
+  {
+    "question": "Which value adds a scrollbar only when needed?",
+    "choice1": "visible",
+    "choice2": "scroll",
+    "choice3": "auto",
+    "choice4": "hidden",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set the minimum width of an element?",
+    "choice1": "min-width",
+    "choice2": "width-min",
+    "choice3": "minimum-width",
+    "choice4": "least-width",
+    "answer": 1
+  },
+  {
+    "question": "Which property controls the order of elements in Flexbox?",
+    "choice1": "order",
+    "choice2": "flex-order",
+    "choice3": "item-order",
+    "choice4": "sort",
+    "answer": 1
+  },
+  {
+    "question": "Which property makes a flex container wrap items to the next line?",
+    "choice1": "flex-wrap: wrap;",
+    "choice2": "flex-flow: wrap;",
+    "choice3": "flex-direction: wrap;",
+    "choice4": "flex: wrap;",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'flex-direction' stacks items vertically?",
+    "choice1": "row",
+    "choice2": "horizontal",
+    "choice3": "column",
+    "choice4": "vertical",
+    "answer": 3
+  },
+  {
+    "question": "Which shorthand sets flex-grow, flex-shrink, and flex-basis?",
+    "choice1": "flex",
+    "choice2": "flex-item",
+    "choice3": "flex-flow",
+    "choice4": "flexible",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to style the first line of a paragraph?",
+    "choice1": "::first-line",
+    "choice2": "::first-paragraph",
+    "choice3": "::line",
+    "choice4": ":first",
+    "answer": 1
+  },
+  {
+    "question": "Which pseudo-element inserts content before an element?",
+    "choice1": "::before",
+    "choice2": "::pre",
+    "choice3": "::start",
+    "choice4": ":before",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to change the cursor to a wait (loading) icon?",
+    "choice1": "cursor: wait;",
+    "choice2": "cursor: loading;",
+    "choice3": "cursor: progress;",
+    "choice4": "Both 1 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to set the background color with transparency?",
+    "choice1": "background: rgba(0,0,0,0.5);",
+    "choice2": "background-color: transparent;",
+    "choice3": "opacity: 0.5;",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which CSS function creates a color with transparency?",
+    "choice1": "alpha()",
+    "choice2": "opacity()",
+    "choice3": "rgba()",
+    "choice4": "trans()",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to crop a background image?",
+    "choice1": "background-clip",
+    "choice2": "background-size",
+    "choice3": "background-origin",
+    "choice4": "background-crop",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'background-clip' limits painting to content box?",
+    "choice1": "border-box",
+    "choice2": "padding-box",
+    "choice3": "content-box",
+    "choice4": "text",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to change the stacking context?",
+    "choice1": "z-index",
+    "choice2": "stack-level",
+    "choice3": "position-index",
+    "choice4": "layer",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'display' makes an element a flex container?",
+    "choice1": "flex",
+    "choice2": "inline-flex",
+    "choice3": "block-flex",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to set the base size of a flex item?",
+    "choice1": "flex-basis",
+    "choice2": "flex-size",
+    "choice3": "flex-grow",
+    "choice4": "flex-width",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to justify content in a flex container?",
+    "choice1": "align-items",
+    "choice2": "justify-items",
+    "choice3": "justify-content",
+    "choice4": "flex-justify",
+    "answer": 3
+  },
+  {
+    "question": "Which selector targets all direct children of a div?",
+    "choice1": "div p",
+    "choice2": "div > p",
+    "choice3": "div + p",
+    "choice4": "div ~ p",
+    "answer": 2
+  },
+  {
+    "question": "Which selector targets the next sibling element?",
+    "choice1": "div > p",
+    "choice2": "div p",
+    "choice3": "div + p",
+    "choice4": "div ~ p",
+    "answer": 3
+  },
+  {
+    "question": "Which selector targets all siblings after the first element?",
+    "choice1": "div + p",
+    "choice2": "div ~ p",
+    "choice3": "div > p",
+    "choice4": "div p",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the font for fallback?",
+    "choice1": "font-family: Arial, sans-serif;",
+    "choice2": "font: Arial;",
+    "choice3": "font-default: sans-serif;",
+    "choice4": "fallback-font: Arial;",
+    "answer": 1
+  },
+  {
+    "question": "Which unit is based on the width of the letter '0'?",
+    "choice1": "em",
+    "choice2": "rem",
+    "choice3": "ch",
+    "choice4": "ex",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to control text overflow?",
+    "choice1": "text-overflow",
+    "choice2": "overflow",
+    "choice3": "text-wrap",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'text-overflow' shows '...' when text overflows?",
+    "choice1": "clip",
+    "choice2": "ellipsis",
+    "choice3": "fade",
+    "choice4": "overflow",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the line height?",
+    "choice1": "line-height",
+    "choice2": "height",
+    "choice3": "line",
+    "choice4": "text-height",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to center a flex container's content vertically and horizontally?",
+    "choice1": "align-items: center; justify-content: center;",
+    "choice2": "justify-content: center; align-items: center;",
+    "choice3": "Both 1 and 2",
+    "choice4": "flex-center: true;",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to make a background image cover the entire element?",
+    "choice1": "background-size: auto;",
+    "choice2": "background-size: cover;",
+    "choice3": "background-size: 100%;",
+    "choice4": "background-fit: cover;",
+    "answer": 2
+  },
+  {
+    "question": "Which property resizes the background image to fit the element?",
+    "choice1": "background-size: contain;",
+    "choice2": "background-size: fit;",
+    "choice3": "background-fit: contain;",
+    "choice4": "background: fit;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the aspect ratio of an element?",
+    "choice1": "aspect-ratio",
+    "choice2": "ratio",
+    "choice3": "size-ratio",
+    "choice4": "element-ratio",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'position' is the default for all elements?",
+    "choice1": "relative",
+    "choice2": "absolute",
+    "choice3": "fixed",
+    "choice4": "static",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to create a multi-column layout?",
+    "choice1": "columns",
+    "choice2": "column-count",
+    "choice3": "column-gap",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which property sets the number of columns in a multi-column layout?",
+    "choice1": "column-width",
+    "choice2": "column-count",
+    "choice3": "columns",
+    "choice4": "Both 2 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to prevent an element from breaking across columns?",
+    "choice1": "break-inside: avoid;",
+    "choice2": "column-break: avoid;",
+    "choice3": "page-break: avoid;",
+    "choice4": "break-before: avoid;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the style of a border?",
+    "choice1": "border-style",
+    "choice2": "border",
+    "choice3": "border-type",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which value creates a dashed border?",
+    "choice1": "dotted",
+    "choice2": "dashed",
+    "choice3": "solid",
+    "choice4": "line",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to round all corners of an element?",
+    "choice1": "border-radius: 10px;",
+    "choice2": "border-radius: 50%;",
+    "choice3": "Both 1 and 2",
+    "choice4": "corner-radius: 10px;",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set a shadow inside an element?",
+    "choice1": "box-shadow: inset 2px 2px 5px #000;",
+    "choice2": "inner-shadow: 2px 2px 5px #000;",
+    "choice3": "box-shadow: inner 2px 2px 5px #000;",
+    "choice4": "shadow: inside;",
+    "answer": 1
+  },
+   {
+    "question": "How do you define a CSS custom property (variable)?",
+    "choice1": "--main-color: blue;",
+    "choice2": "$main-color: blue;",
+    "choice3": "var main-color = blue;",
+    "choice4": "let --main-color = blue;",
+    "answer": 1
+  },
+  {
+    "question": "How do you use a CSS custom property?",
+    "choice1": "color: --main-color;",
+    "choice2": "color: var(--main-color);",
+    "choice3": "color: get(--main-color);",
+    "choice4": "color: css-var(main-color);",
+    "answer": 2
+  },
+  {
+    "question": "Where should CSS variables be defined for global access?",
+    "choice1": "body",
+    "choice2": "html",
+    "choice3": ":root",
+    "choice4": "All of the above",
+    "answer": 3
+  },
+  {
+    "question": "Which rule is used to apply styles based on screen size?",
+    "choice1": "@media",
+    "choice2": "@screen",
+    "choice3": "@responsive",
+    "choice4": "@query",
+    "answer": 1
+  },
+  {
+    "question": "Which media query targets screens wider than 768px?",
+    "choice1": "@media (min-width: 768px)",
+    "choice2": "@media (width > 768px)",
+    "choice3": "@media min-width: 768px",
+    "choice4": "@media screen-only: 768px",
+    "answer": 1
+  },
+  {
+    "question": "Which media feature detects device orientation?",
+    "choice1": "orientation",
+    "choice2": "screen-orientation",
+    "choice3": "device-type",
+    "choice4": "rotate",
+    "answer": 1
+  },
+  {
+    "question": "Which value indicates a device is in portrait mode?",
+    "choice1": "landscape",
+    "choice2": "vertical",
+    "choice3": "portrait",
+    "choice4": "upright",
+    "answer": 3
+  },
+  {
+    "question": "Which media query targets print devices?",
+    "choice1": "@media screen",
+    "choice2": "@media print",
+    "choice3": "@media device: print",
+    "choice4": "@print",
+    "answer": 2
+  },
+  {
+    "question": "What does 'mobile-first' CSS mean?",
+    "choice1": "Write styles for mobile first, then add overrides for larger screens",
+    "choice2": "Use mobile-only styles",
+    "choice3": "Start with @media (max-width)",
+    "choice4": "Design only for phones",
+    "answer": 1
+  },
+  {
+    "question": "Which unit is best for responsive typography?",
+    "choice1": "px",
+    "choice2": "pt",
+    "choice3": "em",
+    "choice4": "rem",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to make images scale with the container?",
+    "choice1": "width: 100%; height: auto;",
+    "choice2": "max-width: 100%; height: auto;",
+    "choice3": "width: fill;",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'object-fit' scales an image to fill its container?",
+    "choice1": "contain",
+    "choice2": "cover",
+    "choice3": "fill",
+    "choice4": "scale-down",
+    "answer": 3
+  },
+  {
+    "question": "Which property controls how an image is resized to fit its container?",
+    "choice1": "image-rendering",
+    "choice2": "object-fit",
+    "choice3": "img-fit",
+    "choice4": "fit-image",
+    "answer": 2
+  },
+  {
+    "question": "Which value preserves the aspect ratio and fits the image inside?",
+    "choice1": "fill",
+    "choice2": "cover",
+    "choice3": "contain",
+    "choice4": "stretch",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set the minimum height to fill the viewport?",
+    "choice1": "height: 100%;",
+    "choice2": "min-height: 100vh;",
+    "choice3": "height: 100vmin;",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'display' hides an element and removes it from layout?",
+    "choice1": "visibility: hidden;",
+    "choice2": "display: none;",
+    "choice3": "hidden",
+    "choice4": "opacity: 0;",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to control accessibility of an element?",
+    "choice1": "access",
+    "choice2": "aria-hidden",
+    "choice3": "accessibility",
+    "choice4": "readable",
+    "answer": 2
+  },
+  {
+    "question": "Which ARIA role defines a navigation region?",
+    "choice1": "role=\"menu\"",
+    "choice2": "role=\"nav\"",
+    "choice3": "role=\"navigation\"",
+    "choice4": "Both 2 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to pause animation?",
+    "choice1": "animation-state: paused;",
+    "choice2": "animation-play-state: paused;",
+    "choice3": "pause: true;",
+    "choice4": "animation: pause;",
+    "answer": 2
+  },
+  {
+    "question": "Which value makes an animation play backwards?",
+    "choice1": "reverse",
+    "choice2": "back",
+    "choice3": "backward",
+    "choice4": "from-end",
+    "answer": 1
+  },
+  {
+    "question": "Which property sets how an animation applies styles before and after it runs?",
+    "choice1": "animation-timing",
+    "choice2": "animation-fill-mode",
+    "choice3": "animation-persistence",
+    "choice4": "animation-keep",
+    "answer": 2
+  },
+  {
+    "question": "Which value keeps the final state of an animation after it ends?",
+    "choice1": "none",
+    "choice2": "forwards",
+    "choice3": "backwards",
+    "choice4": "both",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to create a stacking context?",
+    "choice1": "position: absolute;",
+    "choice2": "z-index: 1;",
+    "choice3": "transform: translateZ(0);",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which selector has the highest specificity?",
+    "choice1": "div",
+    "choice2": ".example",
+    "choice3": "#header",
+    "choice4": "style=\"\"",
+    "answer": 4
+  },
+  {
+    "question": "Which rule overrides other styles regardless of order?",
+    "choice1": "!important",
+    "choice2": "override",
+    "choice3": "force",
+    "choice4": "priority",
+    "answer": 1
+  },
+  {
+    "question": "Which function combines multiple transforms?",
+    "choice1": "transform: rotate(45deg) scale(1.5);",
+    "choice2": "transform: combine(rotate, scale);",
+    "choice3": "transform-group: rotate scale;",
+    "choice4": "transform: list(rotate, scale);",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to style scrollbars in WebKit browsers?",
+    "choice1": "::scrollbar",
+    "choice2": "scrollbar-color",
+    "choice3": "::-webkit-scrollbar",
+    "choice4": "Both 2 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which property sets the color of the scrollbar track?",
+    "choice1": "scrollbar-track-color",
+    "choice2": "scrollbar-color",
+    "choice3": "::-webkit-scrollbar-track",
+    "choice4": "Both 2 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to prevent zooming on mobile devices?",
+    "choice1": "user-scalable=no",
+    "choice2": "maximum-scale=1.0",
+    "choice3": "Both 1 and 2",
+    "choice4": "zoom: disabled;",
+    "answer": 3
+  },
+  {
+    "question": "Which meta tag is used for responsive design?",
+    "choice1": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "choice2": "<meta http-equiv=\"Responsive\">",
+    "choice3": "<meta name=\"mobile\">",
+    "choice4": "<meta content=\"responsive\">",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to control text wrapping in flex items?",
+    "choice1": "white-space: nowrap;",
+    "choice2": "flex-wrap: wrap;",
+    "choice3": "overflow-wrap: break-word;",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'align-self' overrides 'align-items' in flex?",
+    "choice1": "flex-start",
+    "choice2": "center",
+    "choice3": "stretch",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to set the gap between flex items?",
+    "choice1": "gap",
+    "choice2": "flex-gap",
+    "choice3": "space-between",
+    "choice4": "margin",
+    "answer": 1
+  },
+  {
+    "question": "Which selector targets all input elements that are focused?",
+    "choice1": ":active",
+    "choice2": ":hover",
+    "choice3": ":focus",
+    "choice4": ":selected",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to control the order of DOM elements visually?",
+    "choice1": "order",
+    "choice2": "z-index",
+    "choice3": "flex-order",
+    "choice4": "visual-order",
+    "answer": 1
+  },
+  {
+    "question": "Which value of 'list-style-type' removes bullets and numbers?",
+    "choice1": "none",
+    "choice2": "hidden",
+    "choice3": "blank",
+    "choice4": "no-markers",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the counter for a list?",
+    "choice1": "counter-increment",
+    "choice2": "list-counter",
+    "choice3": "counter",
+    "choice4": "increment",
+    "answer": 1
+  },
+  {
+    "question": "Which pseudo-element is used with counters to display numbers?",
+    "choice1": "::before",
+    "choice2": "::after",
+    "choice3": "Both 1 and 2",
+    "choice4": "::marker",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set the font smoothing?",
+    "choice1": "text-smooth",
+    "choice2": "font-smooth",
+    "choice3": "-webkit-font-smoothing",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which value of 'text-align' aligns text to the right in RTL languages?",
+    "choice1": "right",
+    "choice2": "end",
+    "choice3": "justify",
+    "choice4": "auto",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to control hyphenation of text?",
+    "choice1": "hyphenate",
+    "choice2": "text-hyphen",
+    "choice3": "hyphens",
+    "choice4": "word-break",
+    "answer": 3
+  },
+  {
+    "question": "Which value allows hyphenation where appropriate?",
+    "choice1": "manual",
+    "choice2": "auto",
+    "choice3": "normal",
+    "choice4": "break",
+    "answer": 2
+  },
+  {
+    "question": "Which property is used to set the style of table borders?",
+    "choice1": "border",
+    "choice2": "border-collapse",
+    "choice3": "table-border",
+    "choice4": "border-style",
+    "answer": 2
+  },
+  {
+    "question": "Which value merges table borders into a single border?",
+    "choice1": "separate",
+    "choice2": "merged",
+    "choice3": "collapse",
+    "choice4": "combined",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set the spacing between table cells?",
+    "choice1": "cell-spacing",
+    "choice2": "border-spacing",
+    "choice3": "table-gap",
+    "choice4": "cell-gap",
+    "answer": 2
+  },
+  {
+    "question": "Which value of 'float' is used to stop floating?",
+    "choice1": "none",
+    "choice2": "clear",
+    "choice3": "Both 1 and 2",
+    "choice4": "stop",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the font for monospace text?",
+    "choice1": "font-family: monospace;",
+    "choice2": "font: mono;",
+    "choice3": "font-family: 'Courier';",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to set the default cursor?",
+    "choice1": "cursor: default;",
+    "choice2": "cursor: auto;",
+    "choice3": "cursor: normal;",
+    "choice4": "cursor: pointer;",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to control the rendering of text?",
+    "choice1": "text-rendering",
+    "choice2": "font-rendering",
+    "choice3": "render-text",
+    "choice4": "text-quality",
+    "answer": 1
+  },
+  {
+    "question": "Which value optimizes text for speed?",
+    "choice1": "optimizeSpeed",
+    "choice2": "geometricPrecision",
+    "choice3": "auto",
+    "choice4": "crispEdges",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the fallback font?",
+    "choice1": "font-family: Arial, sans-serif;",
+    "choice2": "font-fallback: Arial;",
+    "choice3": "fallback-font: sans-serif;",
+    "choice4": "font: sans-serif;",
+    "answer": 1
+  },
+  {
+    "question": "Which selector targets all <a> elements with href attribute?",
+    "choice1": "a[href]",
+    "choice2": "a.href",
+    "choice3": "a with href",
+    "choice4": "href a",
+    "answer": 1
+  },
+  {
+    "question": "Which property is used to set the minimum inline size of a flex item?",
+    "choice1": "min-width",
+    "choice2": "flex-min",
+    "choice3": "min-inline-size",
+    "choice4": "Both 1 and 3",
+    "answer": 4
+  },
+  {
+    "question": "Which rule is used to group multiple style rules?",
+    "choice1": "group",
+    "choice2": "bundle",
+    "choice3": "comma-separated selectors",
+    "choice4": "block",
+    "answer": 3
+  },
+  {
+    "question": "Which property is used to set the background blend mode?",
+    "choice1": "blend-mode",
+    "choice2": "background-blend-mode",
+    "choice3": "mix-blend-mode",
+    "choice4": "image-blend",
+    "answer": 2
+  },
+  {
+    "question": "Which value creates a smooth gradient transition?",
+    "choice1": "linear-gradient()",
+    "choice2": "radial-gradient()",
+    "choice3": "conic-gradient()",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which property is used to clip an element to a path?",
+    "choice1": "clip-path",
+    "choice2": "clip",
+    "choice3": "shape",
+    "choice4": "mask",
+    "answer": 1
+  }
+]
