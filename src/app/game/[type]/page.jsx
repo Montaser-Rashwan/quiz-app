@@ -1,3 +1,4 @@
+// 
 // app/game/[type]/page.js
 'use client';
 
@@ -6,23 +7,23 @@ import { saveRecentScore } from '../../../lib/utils';
 import QuestionCard from '../../../components/QuestionCard';
 import Loader from '../../../components/Loader';
 
-const MAX_QUESTIONS = 200; // Reduced for demo
-const CORRECT_BONUS = 5;
+const MAX_QUESTIONS = 100;
+const CORRECT_BONUS = 1;
 
-export default function Game({ params }) {
-  const { type } = params; // Get quiz type from URL
+ const Game=({ params })=> {
+  const { type } = params;
   const [loading, setLoading] = useState(true);
-  const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [questionCounter, setQuestionCounter] = useState(0);
   const [score, setScore] = useState(0);
   const [availableQuestions, setAvailableQuestions] = useState([]);
 
-  // Map quiz type to JSON file
   const quizFiles = {
     html: '/questions-html.json',
     css: '/questions-css.json',
     javascript: '/questions-js.json',
+    react: '/questions-react.json',
+    next : '/questions-next.json',
   };
 
   const fileName = quizFiles[type] || '/questions-html.json';
@@ -35,8 +36,7 @@ export default function Game({ params }) {
       })
       .then((data) => {
         const shuffled = [...data].sort(() => Math.random() - 0.5);
-        setQuestions(shuffled);
-        setAvailableQuestions(shuffled.slice(0, MAX_QUESTIONS));
+        setAvailableQuestions(shuffled.slice(0, MAX_QUESTIONS)); // Only store what you use
         setLoading(false);
       })
       .catch((err) => {
@@ -65,8 +65,6 @@ export default function Game({ params }) {
     if (nextCounter >= MAX_QUESTIONS) {
       saveRecentScore(score + (correct ? CORRECT_BONUS : 0));
       window.location.href = '/end';
-    } else {
-      // Load next question
     }
   };
 
@@ -110,3 +108,4 @@ export default function Game({ params }) {
     </div>
   );
 }
+export default Game;

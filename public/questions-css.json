@@ -112,14 +112,6 @@
     "answer": 1
   },
   {
-    "question": "How do you link CSS to HTML using an internal style sheet?",
-    "choice1": "<style src='styles.css'>",
-    "choice2": "<link rel='stylesheet'>",
-    "choice3": "<style>",
-    "choice4": "<css>",
-    "answer": 3
-  },
-  {
     "question": "Which symbol is used to denote a class in CSS?",
     "choice1": "#",
     "choice2": ".",
@@ -159,7 +151,7 @@
     "choice4": "measure",
     "answer": 1
   },
-   {
+  {
     "question": "Which CSS property is used to control the spacing between letters?",
     "choice1": "text-spacing",
     "choice2": "letter-spacing",
@@ -319,7 +311,7 @@
     "choice4": "flex-basis",
     "answer": 3
   },
-   {
+  {
     "question": "Which CSS property is used to create a shadow effect for text?",
     "choice1": "text-shadow",
     "choice2": "shadow",
@@ -448,14 +440,6 @@
     "answer": 4
   },
   {
-    "question": "Which property is used to control the flow and formatting of content?",
-    "choice1": "display",
-    "choice2": "position",
-    "choice3": "layout",
-    "choice4": "format",
-    "answer": 1
-  },
-  {
     "question": "Which CSS unit is relative to the font size of the parent element?",
     "choice1": "px",
     "choice2": "em",
@@ -479,7 +463,7 @@
     "choice4": "100% of the screen resolution",
     "answer": 1
   },
-   {
+  {
     "question": "Which property is used to define a CSS grid container?",
     "choice1": "display: flex;",
     "choice2": "display: grid;",
@@ -952,14 +936,6 @@
     "answer": 4
   },
   {
-    "question": "Which property sets the number of columns in a multi-column layout?",
-    "choice1": "column-width",
-    "choice2": "column-count",
-    "choice3": "columns",
-    "choice4": "Both 2 and 3",
-    "answer": 4
-  },
-  {
     "question": "Which property is used to prevent an element from breaking across columns?",
     "choice1": "break-inside: avoid;",
     "choice2": "column-break: avoid;",
@@ -999,7 +975,7 @@
     "choice4": "shadow: inside;",
     "answer": 1
   },
-   {
+  {
     "question": "How do you define a CSS custom property (variable)?",
     "choice1": "--main-color: blue;",
     "choice2": "$main-color: blue;",
@@ -1110,6 +1086,14 @@
     "choice3": "contain",
     "choice4": "stretch",
     "answer": 3
+  },
+  {
+    "question": "Which property sets the number of columns in a multi-column layout?",
+    "choice1": "column-width",
+    "choice2": "column-count",
+    "choice3": "columns",
+    "choice4": "Both 2 and 3",
+    "answer": 4
   },
   {
     "question": "Which property is used to set the minimum height to fill the viewport?",

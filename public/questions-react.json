@@ -1,0 +1,706 @@
+[
+  {
+    "question": "What is React primarily used for?",
+    "choice1": "Styling web pages",
+    "choice2": "Building user interfaces",
+    "choice3": "Handling databases",
+    "choice4": "Server-side rendering only",
+    "answer": 2
+  },
+  {
+    "question": "Which company developed React?",
+    "choice1": "Google",
+    "choice2": "Microsoft",
+    "choice3": "Facebook",
+    "choice4": "Amazon",
+    "answer": 3
+  },
+  {
+    "question": "In which language is React written?",
+    "choice1": "Python",
+    "choice2": "JavaScript",
+    "choice3": "Java",
+    "choice4": "C++",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a key feature of React?",
+    "choice1": "Two-way data binding",
+    "choice2": "Virtual DOM",
+    "choice3": "Direct DOM manipulation",
+    "choice4": "Built-in routing",
+    "answer": 2
+  },
+  {
+    "question": "How do you create a React component?",
+    "choice1": "Using a function or class",
+    "choice2": "Using a loop",
+    "choice3": "Using a variable only",
+    "choice4": "Using an object literal",
+    "answer": 1
+  },
+  {
+    "question": "What is JSX?",
+    "choice1": "A JavaScript extension that allows HTML in JavaScript",
+    "choice2": "A new programming language",
+    "choice3": "A CSS framework",
+    "choice4": "A database query language",
+    "answer": 1
+  },
+  {
+    "question": "Which command is used to create a new React app with Create React App?",
+    "choice1": "npm new react-app my-app",
+    "choice2": "create-react-app my-app",
+    "choice3": "npx create-react-app my-app",
+    "choice4": "react create my-app",
+    "answer": 3
+  },
+  {
+    "question": "Where is the main entry point of a React app typically located?",
+    "choice1": "index.html",
+    "choice2": "App.js",
+    "choice3": "index.js",
+    "choice4": "main.js",
+    "answer": 3
+  },
+  {
+    "question": "How do you embed JavaScript expressions in JSX?",
+    "choice1": "{{expression}}",
+    "choice2": "(expression)",
+    "choice3": "{expression}",
+    "choice4": "<% expression %>",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is a valid JSX element?",
+    "choice1": "<div class='box'>Hello</div>",
+    "choice2": "<div className='box'>Hello</div>",
+    "choice3": "<div id=box>Hello</div>",
+    "choice4": "<Div>hello</Div>",
+    "answer": 2
+  },
+  {
+    "question": "What is the correct way to pass data from parent to child in React?",
+    "choice1": "State",
+    "choice2": "Props",
+    "choice3": "Context",
+    "choice4": "Refs",
+    "answer": 2
+  },
+  {
+    "question": "Which hook is used to manage state in functional components?",
+    "choice1": "useEffect",
+    "choice2": "useContext",
+    "choice3": "useState",
+    "choice4": "useReducer",
+    "answer": 3
+  },
+  {
+    "question": "How do you update state in a functional component?",
+    "choice1": "By directly modifying the state variable",
+    "choice2": "Using the setState() method",
+    "choice3": "Using the function returned by useState",
+    "choice4": "Using props",
+    "answer": 3
+  },
+  {
+    "question": "Which lifecycle method is equivalent to useEffect with no dependencies?",
+    "choice1": "componentDidMount",
+    "choice2": "componentDidUpdate",
+    "choice3": "componentWillUnmount",
+    "choice4": "render",
+    "answer": 1
+  },
+  {
+    "question": "What does useEffect do?",
+    "choice1": "Renders HTML",
+    "choice2": "Handles user events",
+    "choice3": "Performs side effects in functional components",
+    "choice4": "Creates components",
+    "answer": 3
+  },
+  {
+    "question": "How do you prevent default behavior in React event handlers?",
+    "choice1": "event.stop()",
+    "choice2": "event.preventDefault()",
+    "choice3": "return false",
+    "choice4": "event.cancel()",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is true about React components?",
+    "choice1": "They must return one root element",
+    "choice2": "They can return multiple sibling elements without wrapping",
+    "choice3": "They must be classes",
+    "choice4": "They cannot accept parameters",
+    "answer": 1
+  },
+  {
+    "question": "What is a React fragment?",
+    "choice1": "A way to comment code",
+    "choice2": "A placeholder tag like <div>",
+    "choice3": "A way to group elements without adding a DOM node",
+    "choice4": "A deprecated feature",
+    "answer": 3
+  },
+  {
+    "question": "How do you write a fragment in JSX?",
+    "choice1": "<fragment>",
+    "choice2": "<Fragment>",
+    "choice3": "<> </>",
+    "choice4": "<div></div>",
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of keys in React lists?",
+    "choice1": "To style list items",
+    "choice2": "To identify which items have changed, are added, or removed",
+    "choice3": "To make lists faster",
+    "choice4": "To encrypt data",
+    "answer": 2
+  },
+  {
+    "question": "Where should keys be placed when rendering a list?",
+    "choice1": "On the innermost element",
+    "choice2": "On the parent container",
+    "choice3": "On each list item's wrapper element",
+    "choice4": "Keys are not needed",
+    "answer": 3
+  },
+  {
+    "question": "Which hook is used to perform side effects after rendering?",
+    "choice1": "useState",
+    "choice2": "useMemo",
+    "choice3": "useCallback",
+    "choice4": "useEffect",
+    "answer": 4
+  },
+  {
+    "question": "What is the correct way to conditionally render a component?",
+    "choice1": "if (show) <Component />",
+    "choice2": "{show ? <Component /> : null}",
+    "choice3": "renderIf(show, <Component />)",
+    "choice4": "<Component if={show}>",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is NOT a valid way to define a component?",
+    "choice1": "function MyComponent() { return <div>Hello</div>; }",
+    "choice2": "const MyComponent = () => <div>Hello</div>;",
+    "choice3": "class MyComponent extends React.Component { render() { return <div>Hello</div>; } }",
+    "choice4": "let MyComponent = 'Hello';",
+    "answer": 4
+  },
+  {
+    "question": "What is the purpose of the render() method in a class component?",
+    "choice1": "To update state",
+    "choice2": "To handle events",
+    "choice3": "To return JSX",
+    "choice4": "To fetch data",
+    "answer": 3
+  },
+  {
+    "question": "How do you access props in a functional component?",
+    "choice1": "this.props",
+    "choice2": "props",
+    "choice3": "getProps()",
+    "choice4": "useProps()",
+    "answer": 2
+  },
+  {
+    "question": "How do you access props in a class component?",
+    "choice1": "props",
+    "choice2": "this.props",
+    "choice3": "getProps()",
+    "choice4": "state.props",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a valid way to set initial state with useState?",
+    "choice1": "const [state, setState] = useState();",
+    "choice2": "const [state, setState] = useState(0);",
+    "choice3": "const state = useState(0);",
+    "choice4": "setState(0);",
+    "answer": 2
+  },
+  {
+    "question": "What is the correct way to import React in modern React (17+)?",
+    "choice1": "import React from 'react';",
+    "choice2": "React is no longer needed to be imported for JSX",
+    "choice3": "require('react');",
+    "choice4": "import { React } from 'react';",
+    "answer": 2
+  },
+  {
+    "question": "Which version of React introduced Hooks?",
+    "choice1": "React 15",
+    "choice2": "React 16",
+    "choice3": "React 16.8",
+    "choice4": "React 17",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is true about hooks?",
+    "choice1": "They can be used inside loops",
+    "choice2": "They can be called conditionally",
+    "choice3": "They must be called at the top level of a function component",
+    "choice4": "They can be used in regular JavaScript functions",
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of useMemo?",
+    "choice1": "To memoize expensive calculations",
+    "choice2": "To update state",
+    "choice3": "To fetch data",
+    "choice4": "To handle events",
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of useCallback?",
+    "choice1": "To reduce memory usage",
+    "choice2": "To memoize functions",
+    "choice3": "To delay function execution",
+    "choice4": "To bind events",
+    "answer": 2
+  },
+  {
+    "question": "Which hook is used to access context?",
+    "choice1": "useContext",
+    "choice2": "useReducer",
+    "choice3": "useRef",
+    "choice4": "useCallback",
+    "answer": 1
+  },
+  {
+    "question": "How do you create a context in React?",
+    "choice1": "React.createContext()",
+    "choice2": "React.useContext()",
+    "choice3": "new Context()",
+    "choice4": "Context.create()",
+    "answer": 1
+  },
+  {
+    "question": "Which component provides the context value?",
+    "choice1": "Context.Consumer",
+    "choice2": "Context.Provider",
+    "choice3": "Context.Holder",
+    "choice4": "Context.Value",
+    "answer": 2
+  },
+  {
+    "question": "What is the correct way to use useRef?",
+    "choice1": "const ref = useRef();",
+    "choice2": "const ref = React.useRef();",
+    "choice3": "const ref = new useRef();",
+    "choice4": "useRef is not a hook",
+    "answer": 1
+  },
+  {
+    "question": "What does useRef return?",
+    "choice1": "A mutable object with a .current property",
+    "choice2": "A state variable",
+    "choice3": "A DOM node directly",
+    "choice4": "A promise",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a built-in React hook?",
+    "choice1": "useState",
+    "choice2": "useBrowser",
+    "choice3": "useEffect",
+    "choice4": "useContext",
+    "answer": 2
+  },
+  {
+    "question": "What is React Router used for?",
+    "choice1": "Managing state",
+    "choice2": "Handling navigation and URL routing",
+    "choice3": "Styling components",
+    "choice4": "Making HTTP requests",
+    "answer": 2
+  },
+  {
+    "question": "Which component renders the first matching route?",
+    "choice1": "<Switch>",
+    "choice2": "<Routes>",
+    "choice3": "<Router>",
+    "choice4": "<Match>",
+    "answer": 2
+  },
+  {
+    "question": "How do you define a route in React Router v6?",
+    "choice1": "<Route path='/home' component={Home} />",
+    "choice2": "<Route to='/home'> <Home /> </Route>",
+    "choice3": "<Route path='/home'> <Home /> </Route>",
+    "choice4": "<Route element={<Home />} path='/home' />",
+    "answer": 4
+  },
+  {
+    "question": "Which hook is used to navigate programmatically in React Router?",
+    "choice1": "useHistory",
+    "choice2": "useNavigate",
+    "choice3": "useRouter",
+    "choice4": "useGo",
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of React.Fragment?",
+    "choice1": "To group elements without adding a DOM node",
+    "choice2": "To create reusable functions",
+    "choice3": "To handle errors",
+    "choice4": "To memoize components",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about controlled components?",
+    "choice1": "They are controlled by the DOM",
+    "choice2": "Their value is controlled by React state",
+    "choice3": "They do not use state",
+    "choice4": "They are faster than uncontrolled components",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is an uncontrolled component?",
+    "choice1": "A form input managed by React state",
+    "choice2": "A checkbox using useRef to access its value",
+    "choice3": "A button with onClick",
+    "choice4": "A div with className",
+    "answer": 2
+  },
+  {
+    "question": "How do you handle form submission in React?",
+    "choice1": "Using onSubmit event on form",
+    "choice2": "Using onClick on submit button",
+    "choice3": "Using onChange",
+    "choice4": "Using fetch()",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a valid way to update an object in state?",
+    "choice1": "setState({ name: 'John' })",
+    "choice2": "setState(prev => ({ ...prev, name: 'John' }))",
+    "choice3": "this.state.name = 'John'",
+    "choice4": "state.name = 'John'",
+    "answer": 2
+  },
+  {
+    "question": "What is reconciliation in React?",
+    "choice1": "Matching browser DOM with React elements",
+    "choice2": "Updating the virtual DOM only",
+    "choice3": "A debugging tool",
+    "choice4": "A way to style components",
+    "answer": 1
+  },
+  {
+    "question": "Which lifecycle method is called after a component is mounted?",
+    "choice1": "componentDidMount",
+    "choice2": "componentWillMount",
+    "choice3": "render",
+    "choice4": "constructor",
+    "answer": 1
+  },
+  {
+    "question": "Which lifecycle method is called when props or state change?",
+    "choice1": "componentDidUpdate",
+    "choice2": "shouldComponentUpdate",
+    "choice3": "render",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is NOT a phase in the component lifecycle?",
+    "choice1": "Mounting",
+    "choice2": "Updating",
+    "choice3": "Unmounting",
+    "choice4": "Deleting",
+    "answer": 4
+  },
+  {
+    "question": "What is the correct way to handle events in React?",
+    "choice1": "onclick",
+    "choice2": "OnClick",
+    "choice3": "onClick",
+    "choice4": "clickHandler",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is a valid way to style a component in React?",
+    "choice1": "Using the style attribute with an object",
+    "choice2": "Using className with CSS",
+    "choice3": "Using inline styles with camelCase",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "How do you pass a function as a prop?",
+    "choice1": "<Child onClick={handleClick} />",
+    "choice2": "<Child onClick='handleClick' />",
+    "choice3": "<Child click={handleClick} />",
+    "choice4": "<Child bind={handleClick} />",
+    "answer": 1
+  },
+  {
+    "question": "What is prop drilling?",
+    "choice1": "Passing props through multiple levels of components",
+    "choice2": "Drilling into props object",
+    "choice3": "Removing props",
+    "choice4": "A performance optimization",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a way to avoid prop drilling?",
+    "choice1": "Using Context API",
+    "choice2": "Using Redux",
+    "choice3": "Using state managers",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What is the purpose of React.PureComponent?",
+    "choice1": "To make components faster by shallow comparison of props and state",
+    "choice2": "To remove all styling",
+    "choice3": "To prevent re-renders",
+    "choice4": "To use hooks",
+    "answer": 1
+  },
+  {
+    "question": "Which hook is used for complex state logic?",
+    "choice1": "useState",
+    "choice2": "useReducer",
+    "choice3": "useEffect",
+    "choice4": "useMemo",
+    "answer": 2
+  },
+  {
+    "question": "What does the 'key' prop help React identify?",
+    "choice1": "Component type",
+    "choice2": "Component identity",
+    "choice3": "Component style",
+    "choice4": "Component size",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is true about React portals?",
+    "choice1": "They render children outside the DOM hierarchy",
+    "choice2": "They are deprecated",
+    "choice3": "They only work with class components",
+    "choice4": "They are used for animations",
+    "answer": 1
+  },
+  {
+    "question": "How do you create a portal in React?",
+    "choice1": "ReactDOM.createPortal(child, domNode)",
+    "choice2": "React.createPortal(child, domNode)",
+    "choice3": "new Portal(child)",
+    "choice4": "Portal.render(child)",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a valid error boundary method?",
+    "choice1": "componentDidCatch",
+    "choice2": "getDerivedStateFromError",
+    "choice3": "Both A and B",
+    "choice4": "None",
+    "answer": 3
+  },
+  {
+    "question": "Are hooks usable in class components?",
+    "choice1": "Yes",
+    "choice2": "No",
+    "choice3": "Only useState",
+    "choice4": "Only useEffect",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is NOT a rule of hooks?",
+    "choice1": "Only call hooks at the top level",
+    "choice2": "Only call hooks from React components",
+    "choice3": "Call hooks from event handlers",
+    "choice4": "Don't call hooks inside loops",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is a valid way to conditionally apply a class?",
+    "choice1": "className={isActive ? 'active' : ''}",
+    "choice2": "class={isActive && 'active'}",
+    "choice3": "className='active' if isActive",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "What is the default behavior of useEffect?",
+    "choice1": "Runs after every render",
+    "choice2": "Runs only once",
+    "choice3": "Runs before render",
+    "choice4": "Never runs",
+    "answer": 1
+  },
+  {
+    "question": "How do you run useEffect only once (on mount)?",
+    "choice1": "useEffect(callback)",
+    "choice2": "useEffect(callback, [])",
+    "choice3": "useEffect(callback, [true])",
+    "choice4": "useEffect.once(callback)",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is true about React.StrictMode?",
+    "choice1": "It renders components twice in development",
+    "choice2": "It helps find potential problems",
+    "choice3": "It does not render anything visible",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is a valid way to render an array of elements?",
+    "choice1": "{items.map(item => <li key={item.id}>{item.name}</li>)}",
+    "choice2": "{items.forEach(item => <li>{item.name}</li>)}",
+    "choice3": "<list>{items}</list>",
+    "choice4": "renderList(items)",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid React event?",
+    "choice1": "onClick",
+    "choice2": "onMouseEnter",
+    "choice3": "onDoubleClick",
+    "choice4": "onHover",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is true about synthetic events in React?",
+    "choice1": "They are native browser events",
+    "choice2": "They are cross-browser wrappers around native events",
+    "choice3": "They are slower than native events",
+    "choice4": "They are deprecated",
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of the key prop in lists?",
+    "choice1": "To style list items",
+    "choice2": "To improve performance and maintain component state",
+    "choice3": "To increase rendering speed",
+    "choice4": "To hide elements",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a valid way to import a component?",
+    "choice1": "import MyComponent from './MyComponent';",
+    "choice2": "require('./MyComponent');",
+    "choice3": "include('./MyComponent');",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is a valid export for a default component?",
+    "choice1": "export default MyComponent;",
+    "choice2": "export const MyComponent;",
+    "choice3": "module.exports = MyComponent;",
+    "choice4": "Both A and C",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about React DevTools?",
+    "choice1": "It allows inspecting component hierarchy",
+    "choice2": "It shows props and state",
+    "choice3": "It is a browser extension",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is NOT a valid way to update state based on previous state?",
+    "choice1": "setState(prev => prev + 1)",
+    "choice2": "setState(this.state + 1)",
+    "choice3": "setState(prevState => ({ count: prevState.count + 1 }))",
+    "choice4": "All are valid",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a valid way to use context in a functional component?",
+    "choice1": "const value = useContext(MyContext);",
+    "choice2": "this.context = MyContext;",
+    "choice3": "MyContext.use();",
+    "choice4": "Context.getValue(MyContext);",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to pass children to a component?",
+    "choice1": "Using the children prop",
+    "choice2": "Using a custom prop",
+    "choice3": "Using slots",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is true about React's declarative nature?",
+    "choice1": "You describe what the UI should look like",
+    "choice2": "You manipulate the DOM directly",
+    "choice3": "You write step-by-step instructions",
+    "choice4": "It is imperative",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a valid way to conditionally add an attribute?",
+    "choice1": "<input disabled={isDisabled} />",
+    "choice2": "<input disabled={isDisabled ? 'disabled' : ''} />",
+    "choice3": "<input disabled={isDisabled && true} />",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is a valid way to comment in JSX?",
+    "choice1": "// comment",
+    "choice2": "/* comment */",
+    "choice3": "{/* comment */}",
+    "choice4": "<!-- comment -->",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is true about React fragments and performance?",
+    "choice1": "Fragments improve performance by reducing DOM nodes",
+    "choice2": "Fragments slow down rendering",
+    "choice3": "Fragments have no impact",
+    "choice4": "Fragments are deprecated",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid way to handle forms in React?",
+    "choice1": "Controlled components",
+    "choice2": "Uncontrolled components",
+    "choice3": "Using formik or react-hook-form",
+    "choice4": "Using innerHTML",
+    "answer": 4
+  },
+  {
+    "question": "What is the purpose of React.memo?",
+    "choice1": "To memoize functional components",
+    "choice2": "To replace useState",
+    "choice3": "To handle effects",
+    "choice4": "To create context",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a valid way to dynamically set an attribute?",
+    "choice1": "<div className={dynamicClass}></div>",
+    "choice2": "<div { ...{className: dynamicClass} }></div>",
+    "choice3": "Both A and B",
+    "choice4": "None",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is a valid way to use a custom hook?",
+    "choice1": "const value = useCustomHook();",
+    "choice2": "useCustomHook().call();",
+    "choice3": "CustomHook.use();",
+    "choice4": "new useCustomHook();",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about custom hooks?",
+    "choice1": "They must start with 'use'",
+    "choice2": "They can call other hooks",
+    "choice3": "They are reusable logic functions",
+    "choice4": "All of the above",
+    "answer": 4
+  }
+]

@@ -1,14 +1,14 @@
 [
-     {
-    "question": "What does JS stand for?",
-    "choice1": "Java Syntax",
-    "choice2": "JavaScript",
-    "choice3": "Just Script",
-    "choice4": "Java Source",
-    "answer": 2
+  {
+    "question": "What is JavaScript primarily used for in web development?",
+    "choice1": "Styling web pages",
+    "choice2": "Creating server databases",
+    "choice3": "Adding interactivity to web pages",
+    "choice4": "Defining document structure",
+    "answer": 3
   },
   {
-    "question": "How do you declare a variable in JavaScript?",
+    "question": "Which keyword is used to declare a variable in JavaScript?",
     "choice1": "var",
     "choice2": "let",
     "choice3": "const",
@@ -16,47 +16,95 @@
     "answer": 4
   },
   {
-    "question": "Which keyword is used to define a function?",
-    "choice1": "function",
-    "choice2": "func",
-    "choice3": "def",
-    "choice4": "lambda",
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "choice1": "string",
+    "choice2": "boolean",
+    "choice3": "float",
+    "choice4": "undefined",
+    "answer": 3
+  },
+  {
+    "question": "How do you write 'Hello World' in an alert box?",
+    "choice1": "alert('Hello World');",
+    "choice2": "msg('Hello World');",
+    "choice3": "alertBox('Hello World');",
+    "choice4": "prompt('Hello World');",
     "answer": 1
   },
   {
-    "question": "How do you write a comment in JavaScript?",
-    "choice1": "// This is a comment",
-    "choice2": "/* This is a comment */",
-    "choice3": "<!-- This is a comment -->",
-    "choice4": "Both 1 and 2",
-    "answer": 4
-  },
-  {
-    "question": "What is the correct way to write a JavaScript array?",
-    "choice1": "let colors = [\"red\", \"green\", \"blue\"];",
-    "choice2": "let colors = (\"red\", \"green\", \"blue\");",
-    "choice3": "let colors = {\"red\", \"green\", \"blue\"};",
-    "choice4": "let colors = \"red\", \"green\", \"blue\";",
+    "question": "How do you create a function in JavaScript?",
+    "choice1": "function myFunction()",
+    "choice2": "function:myFunction()",
+    "choice3": "function = myFunction()",
+    "choice4": "create myFunction()",
     "answer": 1
   },
   {
     "question": "How do you call a function named 'myFunction'?",
     "choice1": "call myFunction()",
     "choice2": "myFunction()",
-    "choice3": "execute myFunction()",
-    "choice4": "run myFunction()",
+    "choice3": "call function myFunction()",
+    "choice4": "execute myFunction()",
     "answer": 2
+  },
+  {
+    "question": "How do you write an IF statement in JavaScript?",
+    "choice1": "if i = 5 then",
+    "choice2": "if (i == 5)",
+    "choice3": "if i == 5",
+    "choice4": "if (i = 5)",
+    "answer": 2
+  },
+  {
+    "question": "How do you write a FOR loop in JavaScript?",
+    "choice1": "for (i = 0; i <= 5; i++)",
+    "choice2": "for i = 1 to 5",
+    "choice3": "for (i <= 5; i++)",
+    "choice4": "loop (i = 0; i <= 5)",
+    "answer": 1
+  },
+  {
+    "question": "How can you add a comment in JavaScript?",
+    "choice1": "// This is a comment",
+    "choice2": "' This is a comment",
+    "choice3": "<!-- This is a comment -->",
+    "choice4": "/* This is a comment */",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "choice1": "var colors = ['red', 'green', 'blue']",
+    "choice2": "var colors = (1:'red', 2:'green', 3:'blue')",
+    "choice3": "var colors = {red, green, blue}",
+    "choice4": "var colors = 'red', 'green', 'blue'",
+    "answer": 1
+  },
+  {
+    "question": "How do you find the number of elements in an array?",
+    "choice1": "arr.length",
+    "choice2": "arr.size",
+    "choice3": "arr.count",
+    "choice4": "arr.index",
+    "answer": 1
+  },
+  {
+    "question": "How do you access the first element of an array?",
+    "choice1": "arr[0]",
+    "choice2": "arr.first()",
+    "choice3": "arr(0)",
+    "choice4": "arr.first",
+    "answer": 1
   },
   {
     "question": "Which operator is used to assign a value to a variable?",
-    "choice1": "=", 
+    "choice1": "=",
     "choice2": "==",
-    "choice3": "===",
-    "choice4": ":",
+    "choice3": "===", 
+    "choice4": "->",
     "answer": 1
   },
   {
-    "question": "What will `5 == '5'` return?",
+    "question": "What will the expression 5 == '5' return?",
     "choice1": "true",
     "choice2": "false",
     "choice3": "undefined",
@@ -64,31 +112,103 @@
     "answer": 1
   },
   {
-    "question": "What will `5 === '5'` return?",
+    "question": "What will the expression 5 === '5' return?",
     "choice1": "true",
     "choice2": "false",
+    "choice3": "undefined",
+    "choice4": "null",
+    "answer": 2
+  },
+  {
+    "question": "How do you declare a JavaScript object?",
+    "choice1": "var obj = []",
+    "choice2": "var obj = {}",
+    "choice3": "var obj = ()",
+    "choice4": "var obj = ''",
+    "answer": 2
+  },
+  {
+    "question": "How do you access an object property?",
+    "choice1": "object.property",
+    "choice2": "object[property]",
+    "choice3": "object->property",
+    "choice4": "Both 1 and 2",
+    "answer": 4
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "choice1": "Refers to the current function",
+    "choice2": "Refers to the current object",
+    "choice3": "Refers to the global scope",
+    "choice4": "Refers to the previous statement",
+    "answer": 2
+  },
+  {
+    "question": "What does 'NaN' stand for in JavaScript?",
+    "choice1": "Not a Number",
+    "choice2": "Null and None",
+    "choice3": "New Array Notation",
+    "choice4": "No Assignment Name",
+    "answer": 1
+  },
+  {
+    "question": "What is the result of typeof null?",
+    "choice1": "null",
+    "choice2": "object",
     "choice3": "undefined",
     "choice4": "error",
     "answer": 2
   },
   {
-    "question": "How do you create an object in JavaScript?",
-    "choice1": "let obj = {}",
-    "choice2": "let obj = new Object()",
-    "choice3": "Both 1 and 2",
-    "choice4": "let obj = []",
-    "answer": 3
+    "question": "Which method converts a JSON object into a string?",
+    "choice1": "JSON.stringify()",
+    "choice2": "JSON.parse()",
+    "choice3": "JSON.toObject()",
+    "choice4": "JSON.toString()",
+    "answer": 1
   },
   {
-    "question": "How do you access a property of an object?",
-    "choice1": "obj.property",
-    "choice2": "obj[\"property\"]",
-    "choice3": "Both 1 and 2",
-    "choice4": "obj->property",
-    "answer": 3
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "choice1": "JSON.stringify()",
+    "choice2": "JSON.parse()",
+    "choice3": "JSON.toObject()",
+    "choice4": "JSON.fromString()",
+    "answer": 2
   },
   {
-    "question": "Which method adds an element to the end of an array?",
+    "question": "How do you round a number to the nearest integer?",
+    "choice1": "Math.round()",
+    "choice2": "Math.ceil()",
+    "choice3": "Math.floor()",
+    "choice4": "Math.abs()",
+    "answer": 1
+  },
+  {
+    "question": "What does Math.random() return?",
+    "choice1": "A random integer between 1 and 10",
+    "choice2": "A random number between 0 and 1",
+    "choice3": "A random number between 1 and 100",
+    "choice4": "A random boolean",
+    "answer": 2
+  },
+  {
+    "question": "Which built-in method returns the character at a specified index?",
+    "choice1": "charAt()",
+    "choice2": "getChar()",
+    "choice3": "characterAt()",
+    "choice4": "indexChar()",
+    "answer": 1
+  },
+  {
+    "question": "How do you convert a string to uppercase?",
+    "choice1": "toUpperCase()",
+    "choice2": "upper()",
+    "choice3": "toUpper()",
+    "choice4": "changeCase('upper')",
+    "answer": 1
+  },
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
     "choice1": "push()",
     "choice2": "append()",
     "choice3": "add()",
@@ -104,364 +224,332 @@
     "answer": 1
   },
   {
-    "question": "What is the output of `typeof null`?",
-    "choice1": "null",
-    "choice2": "object",
-    "choice3": "undefined",
-    "choice4": "bug",
-    "answer": 2
-  },
-  {
-    "question": "What is the output of `typeof undefined`?",
-    "choice1": "null",
-    "choice2": "undefined",
-    "choice3": "string",
-    "choice4": "object",
-    "answer": 2
-  },
-  {
-    "question": "Which function converts a string to an integer?",
-    "choice1": "parseInt()",
-    "choice2": "toNumber()",
-    "choice3": "int()",
-    "choice4": "strToInt()",
+    "question": "Which method joins all elements of an array into a string?",
+    "choice1": "join()",
+    "choice2": "concat()",
+    "choice3": "toString()",
+    "choice4": "merge()",
     "answer": 1
   },
   {
-    "question": "Which function converts a string to a floating-point number?",
-    "choice1": "parseFloat()",
-    "choice2": "toDecimal()",
-    "choice3": "float()",
-    "choice4": "toNumber()",
-    "answer": 1
-  },
-  {
-    "question": "How do you check if a variable is an array?",
-    "choice1": "typeof arr === 'array'",
-    "choice2": "arr.isArray()",
-    "choice3": "Array.isArray(arr)",
-    "choice4": "arr.type === 'array'",
-    "answer": 3
-  },
-  {
-    "question": "Which method returns a new array with all elements that pass a test?",
+    "question": "Which method returns a new array with elements that pass a test?",
     "choice1": "filter()",
     "choice2": "find()",
     "choice3": "map()",
-    "choice4": "forEach()",
+    "choice4": "some()",
     "answer": 1
   },
   {
     "question": "Which method executes a function for each array element?",
-    "choice1": "map()",
-    "choice2": "forEach()",
-    "choice3": "filter()",
-    "choice4": "every()",
-    "answer": 2
+    "choice1": "forEach()",
+    "choice2": "each()",
+    "choice3": "loop()",
+    "choice4": "map()",
+    "answer": 1
   },
   {
     "question": "Which method creates a new array by transforming each element?",
-    "choice1": "forEach()",
-    "choice2": "map()",
-    "choice3": "filter()",
-    "choice4": "reduce()",
-    "answer": 2
-  },
-  {
-    "question": "Which method returns the first element that passes a test?",
-    "choice1": "filter()",
-    "choice2": "find()",
-    "choice3": "some()",
-    "choice4": "includes()",
-    "answer": 2
-  },
-  {
-    "question": "Which method checks if at least one element passes a test?",
-    "choice1": "every()",
-    "choice2": "some()",
-    "choice3": "includes()",
-    "choice4": "find()",
-    "answer": 2
-  },
-  {
-    "question": "Which method checks if all elements pass a test?",
-    "choice1": "every()",
-    "choice2": "some()",
-    "choice3": "includes()",
-    "choice4": "find()",
+    "choice1": "map()",
+    "choice2": "transform()",
+    "choice3": "forEach()",
+    "choice4": "modify()",
     "answer": 1
   },
   {
-    "question": "What is a closure in JavaScript?",
-    "choice1": "A function with no parameters",
-    "choice2": "A function that returns an object",
-    "choice3": "A function bundled with its lexical environment",
-    "choice4": "A built-in object",
-    "answer": 3
-  },
-  {
-    "question": "What is the value of `this` in a regular function inside an object method?",
-    "choice1": "The object",
-    "choice2": "The global object (window)",
-    "choice3": "undefined",
-    "choice4": "Depends on how it's called",
-    "answer": 4
-  },
-  {
-    "question": "How do you create a deep copy of an object?",
-    "choice1": "Object.assign({}, obj)",
-    "choice2": "{...obj}",
-    "choice3": "JSON.parse(JSON.stringify(obj))",
-    "choice4": "All of the above",
-    "answer": 3
-  },
-  {
-    "question": "Which keyword refers to the current object?",
-    "choice1": "self",
-    "choice2": "this",
-    "choice3": "object",
-    "choice4": "current",
-    "answer": 2
-  },
-  {
-    "question": "What is the DOM?",
-    "choice1": "Data Object Model",
-    "choice2": "Document Object Model",
-    "choice3": "Document Order Model",
-    "choice4": "Display Object Management",
-    "answer": 2
-  },
-  {
-    "question": "How do you select an element by ID in JavaScript?",
-    "choice1": "document.querySelector('#id')",
-    "choice2": "document.getElementById('id')",
-    "choice3": "Both 1 and 2",
-    "choice4": "document.findByID('id')",
-    "answer": 3
-  },
-  {
-    "question": "How do you add an event listener?",
-    "choice1": "element.on('click', func)",
-    "choice2": "element.addEventListener('click', func)",
-    "choice3": "element.click(func)",
-    "choice4": "on click: func",
-    "answer": 2
-  },
-  {
-    "question": "What is the event for when a page finishes loading?",
-    "choice1": "onload",
-    "choice2": "DOMContentLoaded",
-    "choice3": "Both 1 and 2",
-    "choice4": "onready",
-    "answer": 3
-  },
-  {
-    "question": "What does `preventDefault()` do?",
-    "choice1": "Stops the event from bubbling",
-    "choice2": "Stops the default action of the event",
-    "choice3": "Prevents script execution",
-    "choice4": "Cancels animation",
-    "answer": 2
-  },
-  {
-    "question": "What is event delegation?",
-    "choice1": "Assigning events to parent elements",
-    "choice2": "Using event bubbling to handle events",
-    "choice3": "Both 1 and 2",
-    "choice4": "Removing event listeners",
-    "answer": 3
-  },
-  {
-    "question": "What is the result of `1 + '1'`?",
-    "choice1": "2",
-    "choice2": "11",
-    "choice3": "undefined",
-    "choice4": "error",
-    "answer": 2
-  },
-  {
-    "question": "What is the result of `[] + []`?",
-    "choice1": "[]",
-    "choice2": "",
-    "choice3": "null",
-    "choice4": "error",
-    "answer": 2
-  },
-  {
-    "question": "What is the result of `{} + []`?",
-    "choice1": "[object Object]",
-    "choice2": "0",
-    "choice3": "[object Object]undefined",
-    "choice4": "NaN",
-    "answer": 1
-  },
-  {
-    "question": "Which method converts an object to a JSON string?",
-    "choice1": "JSON.stringify()",
-    "choice2": "JSON.parse()",
-    "choice3": "toJSON()",
-    "choice4": "stringify()",
-    "answer": 1
-  },
-  {
-    "question": "Which method converts a JSON string to an object?",
-    "choice1": "JSON.stringify()",
-    "choice2": "JSON.parse()",
-    "choice3": "toObject()",
-    "choice4": "parseJSON()",
-    "answer": 2
-  },
-  {
-    "question": "What is a promise in JavaScript?",
-    "choice1": "A callback function",
-    "choice2": "An object representing eventual completion of an async operation",
-    "choice3": "A variable",
-    "choice4": "A loop",
-    "answer": 2
-  },
-  {
-    "question": "Which method handles the success of a promise?",
-    "choice1": "catch()",
-    "choice2": "then()",
-    "choice3": "finally()",
-    "choice4": "done()",
-    "answer": 2
-  },
-  {
-    "question": "Which method handles the error of a promise?",
-    "choice1": "then()",
-    "choice2": "catch()",
-    "choice3": "error()",
-    "choice4": "fail()",
-    "answer": 2
-  },
-  {
-    "question": "What does `async` function return?",
-    "choice1": "A callback",
-    "choice2": "A promise",
-    "choice3": "A value",
+    "question": "What is the result of '5' + 3?",
+    "choice1": "8",
+    "choice2": "53",
+    "choice3": "error",
     "choice4": "undefined",
     "answer": 2
   },
   {
-    "question": "What does `await` do?",
-    "choice1": "Pauses execution until a promise resolves",
-    "choice2": "Stops the script",
-    "choice3": "Delays execution",
-    "choice4": "Skips the function",
+    "question": "What is the result of '5' - 3?",
+    "choice1": "2",
+    "choice2": "53",
+    "choice3": "error",
+    "choice4": "undefined",
     "answer": 1
   },
   {
-    "question": "Which loop is used to iterate over object properties?",
-    "choice1": "for",
-    "choice2": "for...of",
-    "choice3": "for...in",
-    "choice4": "while",
+    "question": "Which keyword is used to exit a loop early?",
+    "choice1": "break",
+    "choice2": "stop",
+    "choice3": "exit",
+    "choice4": "return",
+    "answer": 1
+  },
+  {
+    "question": "Which keyword skips to the next iteration of a loop?",
+    "choice1": "continue",
+    "choice2": "skip",
+    "choice3": "next",
+    "choice4": "jump",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct syntax for a ternary operator?",
+    "choice1": "condition ? val1 : val2",
+    "choice2": "if (condition) val1 else val2",
+    "choice3": "condition : val1 ? val2",
+    "choice4": "condition ? val1 ? val2",
+    "answer": 1
+  },
+  {
+    "question": "What does the 'debugger' statement do?",
+    "choice1": "Stops execution if debugger is attached",
+    "choice2": "Prints debug info",
+    "choice3": "Logs to console",
+    "choice4": "Enables debugging mode",
+    "answer": 1
+  },
+  {
+    "question": "Which object is used to work with dates in JavaScript?",
+    "choice1": "Date",
+    "choice2": "Time",
+    "choice3": "Moment",
+    "choice4": "Calendar",
+    "answer": 1
+  },
+  {
+    "question": "How do you create a new Date object for now?",
+    "choice1": "new Date()",
+    "choice2": "Date.now()",
+    "choice3": "Date()",
+    "choice4": "getToday()",
+    "answer": 1
+  },
+  {
+    "question": "Which method returns the current timestamp in milliseconds?",
+    "choice1": "Date.now()",
+    "choice2": "new Date().getTime()",
+    "choice3": "Both 1 and 2",
+    "choice4": "Date.timestamp()",
     "answer": 3
   },
   {
-    "question": "Which loop is used to iterate over arrays and iterables?",
-    "choice1": "for...in",
-    "choice2": "for...of",
-    "choice3": "forEach",
-    "choice4": "Both 2 and 3",
-    "answer": 4
+    "question": "What is the scope of a variable declared with 'let'?",
+    "choice1": "Global",
+    "choice2": "Function-scoped",
+    "choice3": "Block-scoped",
+    "choice4": "File-scoped",
+    "answer": 3
   },
   {
-    "question": "What is IIFE?",
-    "choice1": "Immediately Invoked Function Expression",
-    "choice2": "Instantly Invoked Functional Entity",
-    "choice3": "Inline Function Execution",
-    "choice4": "Internal Function Evaluation",
+    "question": "What is the scope of a variable declared with 'var'?",
+    "choice1": "Block-scoped",
+    "choice2": "Function-scoped",
+    "choice3": "Global only",
+    "choice4": "Module-scoped",
+    "answer": 2
+  },
+  {
+    "question": "What is the scope of a variable declared with 'const'?",
+    "choice1": "Block-scoped",
+    "choice2": "Function-scoped",
+    "choice3": "Global only",
+    "choice4": "Unscoped",
     "answer": 1
   },
   {
-    "question": "How do you write an IIFE?",
-    "choice1": "(function(){})()",
-    "choice2": "function(){}()",
-    "choice3": "(() => {})()",
-    "choice4": "All of the above",
-    "answer": 4
+    "question": "Can you reassign a variable declared with 'const'?",
+    "choice1": "Yes",
+    "choice2": "Only if it's an object",
+    "choice3": "No",
+    "choice4": "Only in functions",
+    "answer": 3
   },
   {
-    "question": "What is hoisting in JavaScript?",
-    "choice1": "Moving declarations to the top of the scope",
-    "choice2": "Lifting variables",
+    "question": "What is a closure in JavaScript?",
+    "choice1": "A closed HTML tag",
+    "choice2": "A function with access to outer function's variables",
+    "choice3": "A deleted variable",
+    "choice4": "A built-in method",
+    "answer": 2
+  },
+  {
+    "question": "What does 'hoisting' mean in JavaScript?",
+    "choice1": "Moving declarations to the top",
+    "choice2": "Lifting values",
     "choice3": "Raising errors",
-    "choice4": "Function promotion",
+    "choice4": "Optimizing code",
     "answer": 1
   },
   {
-    "question": "Which variables are hoisted?",
-    "choice1": "var",
-    "choice2": "let",
-    "choice3": "const",
-    "choice4": "All of the above",
+    "question": "Are function declarations hoisted?",
+    "choice1": "Yes",
+    "choice2": "No",
+    "choice3": "Only in strict mode",
+    "choice4": "Only if named",
     "answer": 1
   },
   {
-    "question": "What is the temporal dead zone?",
-    "choice1": "Time before let/const are initialized",
-    "choice2": "Time after execution",
-    "choice3": "Global scope",
-    "choice4": "Function scope",
-    "answer": 1
-  },
-  {
-    "question": "Which method merges two or more objects?",
-    "choice1": "Object.join()",
-    "choice2": "Object.assign()",
-    "choice3": "Object.merge()",
-    "choice4": "Object.concat()",
+    "question": "Are variable assignments hoisted?",
+    "choice1": "Yes",
+    "choice2": "No",
+    "choice3": "Only for var",
+    "choice4": "Only for let",
     "answer": 2
   },
   {
-    "question": "Which method returns an array of object keys?",
-    "choice1": "Object.keys()",
-    "choice2": "Object.values()",
-    "choice3": "Object.entries()",
-    "choice4": "Object.list()",
-    "answer": 1
-  },
-  {
-    "question": "Which method returns an array of object values?",
-    "choice1": "Object.keys()",
-    "choice2": "Object.values()",
-    "choice3": "Object.entries()",
-    "choice4": "Object.all()",
-    "answer": 2
-  },
-  {
-    "question": "Which method returns an array of key-value pairs?",
-    "choice1": "Object.keys()",
-    "choice2": "Object.values()",
-    "choice3": "Object.entries()",
-    "choice4": "Object.pairs()",
-    "answer": 3
-  },
-  {
-    "question": "What is the result of `null == undefined`?",
-    "choice1": "true",
-    "choice2": "false",
-    "choice3": "undefined",
-    "choice4": "error",
-    "answer": 1
-  },
-  {
-    "question": "What is the result of `null === undefined`?",
-    "choice1": "true",
-    "choice2": "false",
-    "choice3": "undefined",
+    "question": "What is the output of console.log(x); var x = 5;?",
+    "choice1": "5",
+    "choice2": "undefined",
+    "choice3": "error",
     "choice4": "null",
     "answer": 2
   },
   {
-    "question": "Which operator returns the remainder of a division?",
-    "choice1": "/",
-    "choice2": "%",
-    "choice3": "mod",
-    "choice4": "div",
+    "question": "What is the output of console.log(x); let x = 5;?",
+    "choice1": "5",
+    "choice2": "undefined",
+    "choice3": "error",
+    "choice4": "null",
+    "answer": 3
+  },
+  {
+    "question": "Which method is used to prevent the default behavior of an event?",
+    "choice1": "preventDefault()",
+    "choice2": "stop()",
+    "choice3": "cancel()",
+    "choice4": "halt()",
+    "answer": 1
+  },
+  {
+    "question": "How do you add an event listener in JavaScript?",
+    "choice1": "element.addEventListener()",
+    "choice2": "element.attachEvent()",
+    "choice3": "element.on('click', handler)",
+    "choice4": "addEvent(element)",
+    "answer": 1
+  },
+  {
+    "question": "What does 'addEventListener' require at minimum?",
+    "choice1": "Event type and callback",
+    "choice2": "Event type, element, and callback",
+    "choice3": "Callback only",
+    "choice4": "Event type and element",
+    "answer": 1
+  },
+  {
+    "question": "Which event fires when a page finishes loading?",
+    "choice1": "onload",
+    "choice2": "onready",
+    "choice3": "oncomplete",
+    "choice4": "onstart",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to write a single-line comment?",
+    "choice1": "// comment",
+    "choice2": "/* comment */",
+    "choice3": "<!-- comment -->",
+    "choice4": "'' comment",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct way to write a multi-line comment?",
+    "choice1": "/* comment */",
+    "choice2": "// comment //",
+    "choice3": "<!-- comment -->",
+    "choice4": "'' comment ''",
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used for strict equality?",
+    "choice1": "==",
+    "choice2": "=",
+    "choice3": "===",
+    "choice4": "!==",
+    "answer": 3
+  },
+  {
+    "question": "Which symbol is used for inequality?",
+    "choice1": "<>",
+    "choice2": "!=",
+    "choice3": "!==",
+    "choice4": "Both 2 and 3",
+    "answer": 4
+  },
+  {
+    "question": "What does 'JSON' stand for?",
+    "choice1": "JavaScript Script Object Notation",
+    "choice2": "JavaScript Object Notation",
+    "choice3": "Java Standard Output Name",
+    "choice4": "JavaScript Output System",
     "answer": 2
+  },
+  {
+    "question": "Which method is used to handle errors in JavaScript?",
+    "choice1": "try...catch",
+    "choice2": "error()",
+    "choice3": "catchError()",
+    "choice4": "handle()",
+    "answer": 1
+  },
+  {
+    "question": "What does 'throw' do in JavaScript?",
+    "choice1": "Logs an error",
+    "choice2": "Stops the program",
+    "choice3": "Creates a custom error",
+    "choice4": "Skips a function",
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of 'use strict'?",
+    "choice1": "Enables strict parsing and error handling",
+    "choice2": "Disables JavaScript",
+    "choice3": "Speeds up execution",
+    "choice4": "Enables ES6 features",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a falsy value?",
+    "choice1": "0",
+    "choice2": "''",
+    "choice3": "null",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is a truthy value?",
+    "choice1": "1",
+    "choice2": "[]",
+    "choice3": "{}",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What does the 'typeof' operator return for a function?",
+    "choice1": "function",
+    "choice2": "object",
+    "choice3": "method",
+    "choice4": "code",
+    "answer": 1
+  },
+  {
+    "question": "How do you check if a variable is an array?",
+    "choice1": "Array.isArray()",
+    "choice2": "typeof arr == 'array'",
+    "choice3": "arr.isArray()",
+    "choice4": "instanceof Array",
+    "answer": 1
+  },
+  {
+    "question": "What does 'null' represent in JavaScript?",
+    "choice1": "An empty object pointer",
+    "choice2": "Zero",
+    "choice3": "Undefined",
+    "choice4": "False",
+    "answer": 1
+  },
+  {
+    "question": "What does 'undefined' mean?",
+    "choice1": "Variable declared but not assigned",
+    "choice2": "Variable not declared",
+    "choice3": "Value is null",
+    "choice4": "Error in code",
+    "answer": 1
   },
   {
     "question": "Which method removes the first element from an array?",
@@ -472,35 +560,171 @@
     "answer": 1
   },
   {
-    "question": "Which method adds an element to the beginning of an array?",
+    "question": "Which method adds elements to the beginning of an array?",
     "choice1": "unshift()",
     "choice2": "push()",
     "choice3": "add()",
-    "choice4": "insert()",
+    "choice4": "prepend()",
     "answer": 1
   },
   {
-    "question": "What does `setTimeout()` do?",
-    "choice1": "Delays execution of a function",
-    "choice2": "Stops execution",
-    "choice3": "Pauses the script",
-    "choice4": "Creates a loop",
+    "question": "Which method returns the index of the first occurrence of a value?",
+    "choice1": "indexOf()",
+    "choice2": "findIndex()",
+    "choice3": "search()",
+    "choice4": "locate()",
     "answer": 1
   },
   {
-    "question": "What does `setInterval()` do?",
-    "choice1": "Runs a function once after delay",
-    "choice2": "Runs a function repeatedly at intervals",
-    "choice3": "Stops a function",
-    "choice4": "Delays forever",
+    "question": "Which method checks if an array includes a certain value?",
+    "choice1": "includes()",
+    "choice2": "has()",
+    "choice3": "contains()",
+    "choice4": "find()",
+    "answer": 1
+  },
+  {
+    "question": "What is the result of Boolean('')?",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "undefined",
+    "choice4": "null",
     "answer": 2
   },
   {
-    "question": "How do you stop a `setInterval()`?",
-    "choice1": "clearInterval()",
-    "choice2": "stopInterval()",
-    "choice3": "clearTimeout()",
-    "choice4": "breakInterval()",
+    "question": "What is the result of Boolean(0)?",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "undefined",
+    "choice4": "null",
+    "answer": 2
+  },
+  {
+    "question": "Which method splits a string into an array?",
+    "choice1": "split()",
+    "choice2": "explode()",
+    "choice3": "toArray()",
+    "choice4": "chunk()",
+    "answer": 1
+  },
+  {
+    "question": "Which method returns a portion of an array?",
+    "choice1": "slice()",
+    "choice2": "splice()",
+    "choice3": "split()",
+    "choice4": "cut()",
+    "answer": 1
+  },
+  {
+    "question": "Which method changes the contents of an array by removing or replacing elements?",
+    "choice1": "splice()",
+    "choice2": "slice()",
+    "choice3": "remove()",
+    "choice4": "delete()",
+    "answer": 1
+  },
+  {
+    "question": "What is the result of 0.1 + 0.2 === 0.3?",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "undefined",
+    "choice4": "error",
+    "answer": 2
+  },
+  {
+    "question": "How do you create a deep copy of an object?",
+    "choice1": "JSON.parse(JSON.stringify(obj))",
+    "choice2": "Object.assign()",
+    "choice3": "Spread operator {...obj}",
+    "choice4": "clone(obj)",
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used for optional chaining?",
+    "choice1": "?",
+    "choice2": "??",
+    "choice3": "?.",
+    "choice4": "||",
+    "answer": 3
+  },
+  {
+    "question": "Which operator is the nullish coalescing operator?",
+    "choice1": "??",
+    "choice2": "||",
+    "choice3": "?.",
+    "choice4": "??=",
+    "answer": 1
+  },
+  {
+    "question": "What does 'IIFE' stand for?",
+    "choice1": "Immediately Invoked Function Expression",
+    "choice2": "Instant Invokable Function Execution",
+    "choice3": "Inline Function Execution",
+    "choice4": "Independent Invokable Functional Entity",
+    "answer": 1
+  },
+  {
+    "question": "How do you write an IIFE?",
+    "choice1": "(function(){})();",
+    "choice2": "function(){}.call();",
+    "choice3": "new Function();",
+    "choice4": "invoke(function)",
+    "answer": 1
+  },
+  {
+    "question": "Which method is used to format numbers as currency?",
+    "choice1": "Number.prototype.toLocaleString()",
+    "choice2": "Number.format()",
+    "choice3": "formatCurrency()",
+    "choice4": "currency()",
+    "answer": 1
+  },
+  {
+    "question": "Which object provides browser history?",
+    "choice1": "history",
+    "choice2": "location",
+    "choice3": "window",
+    "choice4": "navigator",
+    "answer": 1
+  },
+  {
+    "question": "Which object contains information about the browser?",
+    "choice1": "navigator",
+    "choice2": "browser",
+    "choice3": "window",
+    "choice4": "agent",
+    "answer": 1
+  },
+  {
+    "question": "What does 'localStorage' allow you to do?",
+    "choice1": "Store data with no expiration",
+    "choice2": "Store data for one session",
+    "choice3": "Access server files",
+    "choice4": "Cache images",
+    "answer": 1
+  },
+  {
+    "question": "What does 'sessionStorage' do?",
+    "choice1": "Stores data for one session",
+    "choice2": "Stores data permanently",
+    "choice3": "Stores data on the server",
+    "choice4": "Stores cookies",
+    "answer": 1
+  },
+  {
+    "question": "Which method removes an item from localStorage?",
+    "choice1": "removeItem()",
+    "choice2": "delete()",
+    "choice3": "clear()",
+    "choice4": "erase()",
+    "answer": 1
+  },
+  {
+    "question": "Which method clears all items from localStorage?",
+    "choice1": "clear()",
+    "choice2": "removeAll()",
+    "choice3": "delete()",
+    "choice4": "wipe()",
     "answer": 1
   },
   {
@@ -512,827 +736,75 @@
     "answer": 1
   },
   {
-    "question": "Which method converts a string to uppercase?",
-    "choice1": "toUpperCase()",
-    "choice2": "toUpper()",
-    "choice3": "upper()",
-    "choice4": "capital()",
+    "question": "What does 'document' refer to in JavaScript?",
+    "choice1": "The HTML page",
+    "choice2": "A text file",
+    "choice3": "A JavaScript file",
+    "choice4": "A database",
     "answer": 1
   },
   {
-    "question": "Which method removes whitespace from both ends of a string?",
-    "choice1": "trim()",
-    "choice2": "strip()",
-    "choice3": "clean()",
-    "choice4": "removeSpaces()",
-    "answer": 1
-  },
-   {
-    "question": "What will be the output of `console.log(1); setTimeout(() => console.log(2), 0); console.log(3);`?",
-    "choice1": "1, 2, 3",
-    "choice2": "1, 3, 2",
-    "choice3": "2, 1, 3",
-    "choice4": "3, 2, 1",
-    "answer": 2
-  },
-  {
-    "question": "Which method creates a new array with the results of calling a function on every element?",
-    "choice1": "forEach()",
-    "choice2": "map()",
-    "choice3": "filter()",
-    "choice4": "reduce()",
-    "answer": 2
-  },
-  {
-    "question": "What is the purpose of `bind()`?",
-    "choice1": "To call a function immediately",
-    "choice2": "To set the value of `this` permanently",
-    "choice3": "To delay function execution",
-    "choice4": "To create a new function with bound `this`",
-    "answer": 4
-  },
-  {
-    "question": "What does `call()` do?",
-    "choice1": "Calls a function with `this` and individual arguments",
-    "choice2": "Calls a function with `this` and an array of arguments",
-    "choice3": "Binds `this` without calling",
-    "choice4": "Delays execution",
+    "question": "Which method finds an element by its ID?",
+    "choice1": "document.getElementById()",
+    "choice2": "document.querySelector()",
+    "choice3": "document.find()",
+    "choice4": "document.getElement('id')",
     "answer": 1
   },
   {
-    "question": "What does `apply()` do?",
-    "choice1": "Calls function with `this` and individual args",
-    "choice2": "Calls function with `this` and array of args",
-    "choice3": "Binds `this`",
-    "choice4": "Creates a copy",
-    "answer": 2
-  },
-  {
-    "question": "Which syntax defines a default parameter?",
-    "choice1": "function f(a = 1) {}",
-    "choice2": "function f(a: 1) {}",
-    "choice3": "function f(default a = 1) {}",
-    "choice4": "function f([a] = 1) {}",
+    "question": "Which method returns the first element that matches a CSS selector?",
+    "choice1": "document.querySelector()",
+    "choice2": "document.getElementById()",
+    "choice3": "document.getElementBySelector()",
+    "choice4": "document.find()",
     "answer": 1
   },
   {
-    "question": "What is the output of `console.log(a); var a = 5;`?",
-    "choice1": "5",
-    "choice2": "undefined",
-    "choice3": "ReferenceError",
-    "choice4": "NaN",
-    "answer": 2
-  },
-  {
-    "question": "What is the output of `console.log(a); let a = 5;`?",
-    "choice1": "5",
-    "choice2": "undefined",
-    "choice3": "ReferenceError",
-    "choice4": "NaN",
-    "answer": 3
-  },
-  {
-    "question": "What is a module in JavaScript?",
-    "choice1": "A file that exports values",
-    "choice2": "A function",
-    "choice3": "A variable",
-    "choice4": "A comment",
+    "question": "Which method returns all elements that match a CSS selector?",
+    "choice1": "document.querySelectorAll()",
+    "choice2": "document.getElementsByClassName()",
+    "choice3": "document.find()",
+    "choice4": "document.search()",
     "answer": 1
   },
   {
-    "question": "How do you import a default export?",
-    "choice1": "import name from './file.js'",
-    "choice2": "import { name } from './file.js'",
-    "choice3": "require('./file.js')",
-    "choice4": "include './file.js'",
-    "answer": 1
-  },
-  {
-    "question": "How do you import a named export?",
-    "choice1": "import name from './file.js'",
-    "choice2": "import { name } from './file.js'",
-    "choice3": "import * as name from './file.js'",
-    "choice4": "Both 2 and 3",
-    "answer": 4
-  },
-  {
-    "question": "What does `export default` do?",
-    "choice1": "Exports one value as default",
-    "choice2": "Exports all values",
-    "choice3": "Exports private values",
-    "choice4": "Hides the module",
-    "answer": 1
-  },
-  {
-    "question": "What is a pure function?",
-    "choice1": "Returns same output for same input, no side effects",
-    "choice2": "Has no parameters",
-    "choice3": "Returns undefined",
-    "choice4": "Uses `this`",
-    "answer": 1
-  },
-  {
-    "question": "What is immutability?",
-    "choice1": "Not changing original data",
-    "choice2": "Changing data directly",
-    "choice3": "Using `var`",
-    "choice4": "Mutating objects",
-    "answer": 1
-  },
-  {
-    "question": "Which method creates a shallow copy of an array?",
-    "choice1": "slice()",
-    "choice2": "concat()",
-    "choice3": "spread operator [...arr]",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "Which is NOT a way to copy an object?",
-    "choice1": "{...obj}",
-    "choice2": "Object.assign({}, obj)",
-    "choice3": "JSON.parse(JSON.stringify(obj))",
-    "choice4": "obj.copy()",
-    "answer": 4
-  },
-  {
-    "question": "What is currying?",
-    "choice1": "Transforming a function to take arguments one at a time",
-    "choice2": "Combining two functions",
-    "choice3": "Returning multiple values",
-    "choice4": "Using callbacks",
-    "answer": 1
-  },
-  {
-    "question": "What does `Array.isArray()` return for an array?",
+    "question": "What does 'NaN' === NaN return?",
     "choice1": "true",
     "choice2": "false",
-    "choice3": "array",
-    "choice4": "object",
-    "answer": 1
-  },
-  {
-    "question": "Which method flattens a nested array?",
-    "choice1": "flat()",
-    "choice2": "flatten()",
-    "choice3": "merge()",
-    "choice4": "join()",
-    "answer": 1
-  },
-  {
-    "question": "What does `arr.flat(2)` do?",
-    "choice1": "Flattens 2 levels deep",
-    "choice2": "Flattens all levels",
-    "choice3": "Flattens only 1 level",
-    "choice4": "No effect",
-    "answer": 1
-  },
-  {
-    "question": "Which method returns a new array with only unique values?",
-    "choice1": "[...new Set(arr)]",
-    "choice2": "arr.unique()",
-    "choice3": "Array.unique(arr)",
-    "choice4": "arr.filterOnly()",
-    "answer": 1
-  },
-  {
-    "question": "What is memoization?",
-    "choice1": "Caching function results",
-    "choice2": "Logging values",
-    "choice3": "Copying objects",
-    "choice4": "Storing in localStorage",
-    "answer": 1
-  },
-  {
-    "question": "Which object represents browser window?",
-    "choice1": "document",
-    "choice2": "window",
-    "choice3": "browser",
-    "choice4": "global",
+    "choice3": "undefined",
+    "choice4": "error",
     "answer": 2
   },
   {
-    "question": "Which property gets the URL of the current page?",
-    "choice1": "window.location.href",
-    "choice2": "window.url",
-    "choice3": "document.path",
-    "choice4": "window.path",
+    "question": "Which function converts a string to an integer?",
+    "choice1": "parseInt()",
+    "choice2": "toInteger()",
+    "choice3": "Number()",
+    "choice4": "int()",
     "answer": 1
   },
   {
-    "question": "Which method reloads the current page?",
-    "choice1": "window.refresh()",
-    "choice2": "location.reload()",
-    "choice3": "window.reload()",
-    "choice4": "document.reload()",
-    "answer": 2
-  },
-  {
-    "question": "Which storage persists after browser closes?",
-    "choice1": "sessionStorage",
-    "choice2": "localStorage",
-    "choice3": "cookies",
-    "choice4": "Both 2 and 3",
-    "answer": 4
-  },
-  {
-    "question": "Which storage is cleared when tab closes?",
-    "choice1": "localStorage",
-    "choice2": "sessionStorage",
-    "choice3": "indexedDB",
-    "choice4": "cookies",
-    "answer": 2
-  },
-  {
-    "question": "Which method adds data to localStorage?",
-    "choice1": "localStorage.add()",
-    "choice2": "localStorage.set()",
-    "choice3": "localStorage.setItem()",
-    "choice4": "localStorage.save()",
-    "answer": 3
-  },
-  {
-    "question": "Which method retrieves data from localStorage?",
-    "choice1": "localStorage.get()",
-    "choice2": "localStorage.getItem()",
-    "choice3": "localStorage.fetch()",
-    "choice4": "localStorage.read()",
-    "answer": 2
-  },
-  {
-    "question": "What is JSONP used for?",
-    "choice1": "Parsing JSON",
-    "choice2": "Bypassing CORS using script tags",
-    "choice3": "Storing data",
-    "choice4": "Validating JSON",
-    "answer": 2
-  },
-  {
-    "question": "Which event fires when DOM is fully loaded?",
-    "choice1": "load",
-    "choice2": "DOMContentLoaded",
-    "choice3": "ready",
-    "choice4": "complete",
-    "answer": 2
-  },
-  {
-    "question": "Which method stops event propagation?",
-    "choice1": "stopPropagation()",
-    "choice2": "preventDefault()",
-    "choice3": "stopImmediatePropagation()",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "Which method prevents default action (e.g., form submit)?",
-    "choice1": "stopPropagation()",
-    "choice2": "preventDefault()",
-    "choice3": "stopDefault()",
-    "choice4": "cancel()",
-    "answer": 2
-  },
-  {
-    "question": "What is debouncing?",
-    "choice1": "Delaying function execution until after a pause",
-    "choice2": "Running function repeatedly",
-    "choice3": "Throttling execution",
-    "choice4": "Immediate execution",
-    "answer": 1
-  },
-  {
-    "question": "What is throttling?",
-    "choice1": "Delaying until pause",
-    "choice2": "Limiting execution to once per interval",
-    "choice3": "Running once",
-    "choice4": "Stopping execution",
-    "answer": 2
-  },
-  {
-    "question": "Which method creates a new Promise?",
-    "choice1": "new Promise()",
-    "choice2": "Promise.create()",
-    "choice3": "Promise.new()",
-    "choice4": "createPromise()",
-    "answer": 1
-  },
-  {
-    "question": "Which method runs multiple promises in parallel?",
-    "choice1": "Promise.all()",
-    "choice2": "Promise.race()",
-    "choice3": "Promise.allSettled()",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "Which method resolves when all promises resolve or reject?",
-    "choice1": "Promise.all()",
-    "choice2": "Promise.allSettled()",
-    "choice3": "Promise.any()",
-    "choice4": "Promise.race()",
-    "answer": 2
-  },
-  {
-    "question": "Which method resolves when any promise resolves?",
-    "choice1": "Promise.race()",
-    "choice2": "Promise.any()",
-    "choice3": "Both 1 and 2",
-    "choice4": "Promise.all()",
-    "answer": 3
-  },
-  {
-    "question": "What is a generator function?",
-    "choice1": "A function that returns an iterator",
-    "choice2": "A function with `function*` syntax",
-    "choice3": "Uses `yield` keyword",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "How do you define a generator function?",
-    "choice1": "function* name() {}",
-    "choice2": "function name*() {}",
-    "choice3": "generator name() {}",
-    "choice4": "gen function name() {}",
-    "answer": 1
-  },
-  {
-    "question": "What does `yield` do in a generator?",
-    "choice1": "Returns a value and pauses",
-    "choice2": "Stops the function",
-    "choice3": "Throws an error",
-    "choice4": "Continues without pause",
-    "answer": 1
-  },
-  {
-    "question": "What is the `Symbol` data type?",
-    "choice1": "A unique and immutable value",
-    "choice2": "A string",
-    "choice3": "A number",
-    "choice4": "An object",
-    "answer": 1
-  },
-  {
-    "question": "How do you create a Symbol?",
-    "choice1": "Symbol('description')",
-    "choice2": "new Symbol('description')",
-    "choice3": "symbol('description')",
-    "choice4": "Symbol.create('description')",
-    "answer": 1
-  },
-  {
-    "question": "What is `Set` in JavaScript?",
-    "choice1": "A collection of unique values",
-    "choice2": "An array",
-    "choice3": "An object",
-    "choice4": "A function",
-    "answer": 1
-  },
-  {
-    "question": "How do you add a value to a Set?",
-    "choice1": "set.add(value)",
-    "choice2": "set.push(value)",
-    "choice3": "set.insert(value)",
-    "choice4": "set.append(value)",
-    "answer": 1
-  },
-  {
-    "question": "What is `Map` in JavaScript?",
-    "choice1": "An object",
-    "choice2": "A key-value collection that allows any type of key",
-    "choice3": "An array",
-    "choice4": "A function",
-    "answer": 2
-  },
-  {
-    "question": "How do you set a key-value pair in a Map?",
-    "choice1": "map.set(key, value)",
-    "choice2": "map.put(key, value)",
-    "choice3": "map.add(key, value)",
-    "choice4": "map[key] = value",
-    "answer": 1
-  },
-  {
-    "question": "Which method checks if a Map has a key?",
-    "choice1": "map.has(key)",
-    "choice2": "map.exists(key)",
-    "choice3": "map.contains(key)",
-    "choice4": "map.include(key)",
-    "answer": 1
-  },
-  {
-    "question": "What is `WeakMap`?",
-    "choice1": "A Map with weakly held keys (objects only)",
-    "choice2": "A smaller Map",
-    "choice3": "A fast Map",
-    "choice4": "A read-only Map",
-    "answer": 1
-  },
-  {
-    "question": "What is `WeakSet`?",
-    "choice1": "A Set that holds only objects with weak references",
-    "choice2": "A small Set",
-    "choice3": "A fast Set",
-    "choice4": "A primitive-only Set",
-    "answer": 1
-  },
-  {
-    "question": "Which method removes an item from a Map?",
-    "choice1": "map.remove(key)",
-    "choice2": "map.delete(key)",
-    "choice3": "map.pop(key)",
-    "choice4": "map.clear(key)",
-    "answer": 2
-  },
-  {
-    "question": "Which method removes all items from a Set?",
-    "choice1": "set.clear()",
-    "choice2": "set.removeAll()",
-    "choice3": "set.empty()",
-    "choice4": "set.reset()",
-    "answer": 1
-  },
-  {
-    "question": "What is the purpose of `try...catch`?",
-    "choice1": "Handle errors gracefully",
-    "choice2": "Log values",
-    "choice3": "Stop execution",
-    "choice4": "Debug code",
-    "answer": 1
-  },
-  {
-    "question": "Which block runs regardless of error?",
-    "choice1": "try",
-    "choice2": "catch",
-    "choice3": "finally",
-    "choice4": "else",
-    "answer": 3
-  },
-  {
-    "question": "How do you throw a custom error?",
-    "choice1": "throw new Error('message')",
-    "choice2": "error('message')",
-    "choice3": "throw 'message'",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "What is a polyfill?",
-    "choice1": "Code that adds missing JS features",
-    "choice2": "A CSS framework",
-    "choice3": "A debugging tool",
-    "choice4": "A bundler",
-    "answer": 1
-  },
-  {
-    "question": "What is a shim?",
-    "choice1": "A library that patches browser differences",
-    "choice2": "A CSS reset",
-    "choice3": "A build tool",
-    "choice4": "A testing framework",
-    "answer": 1
-  },
-  {
-    "question": "Which method checks if a string starts with another string?",
-    "choice1": "startsWith()",
-    "choice2": "includes()",
-    "choice3": "indexOf()",
-    "choice4": "match()",
-    "answer": 1
-  },
-  {
-    "question": "Which method checks if a string ends with another string?",
-    "choice1": "endsWith()",
-    "choice2": "lastIndexOf()",
-    "choice3": "substr()",
-    "choice4": "slice()",
-    "answer": 1
-  },
-  {
-    "question": "Which method returns the index of the first occurrence of a substring?",
-    "choice1": "indexOf()",
-    "choice2": "search()",
-    "choice3": "find()",
-    "choice4": "Both 1 and 2",
-    "answer": 4
-  },
-  {
-    "question": "What is destructuring?",
-    "choice1": "Extracting values from arrays or objects",
-    "choice2": "Deleting variables",
-    "choice3": "Copying arrays",
-    "choice4": "Merging objects",
-    "answer": 1
-  },
-  {
-    "question": "How do you destructure an object?",
-    "choice1": "const {a, b} = obj;",
-    "choice2": "const [a, b] = obj;",
-    "choice3": "let a = obj.a, b = obj.b;",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "How do you destructure an array?",
-    "choice1": "const [a, b] = arr;",
-    "choice2": "const {a, b} = arr;",
-    "choice3": "let a = arr[0]; let b = arr[1];",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "What is the spread operator?",
-    "choice1": "...",
-    "choice2": "..",
-    "choice3": "spread",
-    "choice4": "expand",
-    "answer": 1
-  },
-  {
-    "question": "What does the spread operator do?",
-    "choice1": "Expands iterables into individual elements",
-    "choice2": "Concatenates strings",
-    "choice3": "Calls functions",
-    "choice4": "Creates objects",
-    "answer": 1
-  },
-  {
-    "question": "Which is NOT a primitive type?",
-    "choice1": "string",
-    "choice2": "number",
-    "choice3": "boolean",
-    "choice4": "object",
-    "answer": 4
-  },
-  {
-    "question": "Which is a reference type?",
-    "choice1": "object",
-    "choice2": "array",
-    "choice3": "function",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "What is garbage collection?",
-    "choice1": "Automatically freeing memory",
-    "choice2": "Deleting variables",
-    "choice3": "Clearing cache",
-    "choice4": "Stopping scripts",
-    "answer": 1
-  },
-  {
-    "question": "What is a memory leak?",
-    "choice1": "Unintentional retention of memory",
-    "choice2": "Fast memory",
-    "choice3": "Clearing localStorage",
-    "choice4": "Using `const`",
-    "answer": 1
-  },
-  {
-    "question": "Which tool can debug memory in browser?",
-    "choice1": "DevTools Memory tab",
-    "choice2": "console.log",
-    "choice3": "alert()",
-    "choice4": "document.write",
-    "answer": 1
-  },
-  {
-    "question": "What is CORS?",
-    "choice1": "Cross-Origin Resource Sharing",
-    "choice2": "Client-Origin Request System",
-    "choice3": "Cross-Object Request Security",
-    "choice4": "Content-Origin Resource Security",
-    "answer": 1
-  },
-  {
-    "question": "What is XSS?",
-    "choice1": "Cross-Site Scripting",
-    "choice2": "XML Script Security",
-    "choice3": "Cross-System Script",
-    "choice4": "External Script Safety",
-    "answer": 1
-  },
-  {
-    "question": "How to prevent XSS?",
-    "choice1": "Sanitize user input",
-    "choice2": "Use HTTPS",
-    "choice3": "Use cookies",
-    "choice4": "Minify code",
-    "answer": 1
-  },
-  {
-    "question": "What is CSRF?",
-    "choice1": "Cross-Site Request Forgery",
-    "choice2": "Client-Server Request Forgery",
-    "choice3": "Cross-Script Request Function",
-    "choice4": "Cookie-Security Request Framework",
-    "answer": 1
-  },
-  {
-    "question": "What does `use strict` do?",
-    "choice1": "Enables stricter parsing and error handling",
-    "choice2": "Makes code faster",
-    "choice3": "Disables features",
-    "choice4": "Hides variables",
-    "answer": 1
-  },
-  {
-    "question": "Where can `use strict` be placed?",
-    "choice1": "At the top of a file",
-    "choice2": "At the top of a function",
-    "choice3": "Both 1 and 2",
-    "choice4": "In HTML script tag",
-    "answer": 3
-  },
-  {
-    "question": "What is event loop?",
-    "choice1": "Mechanism that handles async callbacks",
-    "choice2": "A for loop",
-    "choice3": "A browser tab",
-    "choice4": "A timer",
-    "answer": 1
-  },
-  {
-    "question": "What is the call stack?",
-    "choice1": "Tracks function calls",
-    "choice2": "Stores variables",
-    "choice3": "Handles events",
-    "choice4": "Manages memory",
-    "answer": 1
-  },
-  {
-    "question": "What is a callback queue?",
-    "choice1": "Holds async callbacks before execution",
-    "choice2": "Stores promises",
-    "choice3": "Manages DOM updates",
-    "choice4": "Caches data",
-    "answer": 1
-  },
-  {
-    "question": "Which is NOT a way to define an object method?",
-    "choice1": "method() {}",
-    "choice2": "method: function() {}",
-    "choice3": "function method() {}",
-    "choice4": "method => {}",
-    "answer": 4
-  },
-  {
-    "question": "What is `this` in an arrow function?",
-    "choice1": "The object it belongs to",
-    "choice2": "The global object",
-    "choice3": "Lexically inherited from parent scope",
-    "choice4": "undefined",
-    "answer": 3
-  },
-  {
-    "question": "Which method converts an array-like object to an array?",
-    "choice1": "Array.from()",
-    "choice2": "Array.of()",
-    "choice3": "[...obj]",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "Which method creates an array from arguments?",
-    "choice1": "Array.from(arguments)",
-    "choice2": "[...arguments]",
-    "choice3": "Array.of(arguments)",
-    "choice4": "Both 1 and 2",
-    "answer": 4
-  },
-  {
-    "question": "What is `Array.of()` used for?",
-    "choice1": "Creates array with given elements",
-    "choice2": "Converts string to array",
-    "choice3": "Splits array",
-    "choice4": "Joins arrays",
-    "answer": 1
-  },
-  {
-    "question": "Which method checks if a value is a number?",
-    "choice1": "typeof value === 'number'",
-    "choice2": "Number.isNaN()",
-    "choice3": "Number.isFinite()",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "What is `NaN`?",
-    "choice1": "Not a Number",
-    "choice2": "Null and Negative",
-    "choice3": "New Array Number",
-    "choice4": "No Assignment Name",
-    "answer": 1
-  },
-  {
-    "question": "What is the result of `typeof NaN`?",
-    "choice1": "number",
-    "choice2": "NaN",
-    "choice3": "object",
-    "choice4": "undefined",
-    "answer": 1
-  },
-  {
-    "question": "Which method parses a string and returns a floating point number?",
+    "question": "Which function converts a string to a floating-point number?",
     "choice1": "parseFloat()",
-    "choice2": "Number()",
-    "choice3": "Unary +",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "What is the purpose of `Object.freeze()`?",
-    "choice1": "Prevents adding, removing, or changing properties",
-    "choice2": "Allows property changes",
-    "choice3": "Deletes properties",
-    "choice4": "Clones object",
+    "choice2": "toDecimal()",
+    "choice3": "Number()",
+    "choice4": "float()",
     "answer": 1
   },
   {
-    "question": "What is `Object.seal()`?",
-    "choice1": "Prevents adding or removing properties, but allows changing",
-    "choice2": "Freezes object",
-    "choice3": "Deletes all properties",
-    "choice4": "Opens object",
-    "answer": 1
-  },
-  {
-    "question": "Which method checks if an object is frozen?",
-    "choice1": "Object.isFrozen()",
-    "choice2": "Object.frozen()",
-    "choice3": "isFrozen()",
-    "choice4": "Object.checkFrozen()",
-    "answer": 1
-  },
-  {
-    "question": "What is tail call optimization?",
-    "choice1": "Optimizing recursive calls in tail position",
-    "choice2": "Removing tail elements",
-    "choice3": "Optimizing loops",
-    "choice4": "Deleting functions",
-    "answer": 1
-  },
-  {
-    "question": "Which syntax defines a class in JavaScript?",
-    "choice1": "class MyClass {}",
-    "choice2": "function MyClass() {}",
-    "choice3": "var MyClass = class {}",
-    "choice4": "All of the above",
-    "answer": 4
-  },
-  {
-    "question": "How do you create an instance of a class?",
-    "choice1": "new MyClass()",
-    "choice2": "MyClass.create()",
-    "choice3": "create MyClass()",
-    "choice4": "instance(MyClass)",
-    "answer": 1
-  },
-  {
-    "question": "Which method is called when an object is created?",
-    "choice1": "init()",
-    "choice2": "constructor()",
-    "choice3": "create()",
-    "choice4": "new()",
+    "question": "What is the result of typeof []?",
+    "choice1": "array",
+    "choice2": "object",
+    "choice3": "list",
+    "choice4": "undefined",
     "answer": 2
   },
   {
-    "question": "How do you inherit from a class?",
-    "choice1": "class Child extends Parent {}",
-    "choice2": "class Child inherits Parent {}",
-    "choice3": "class Child : Parent {}",
-    "choice4": "class Child uses Parent {}",
-    "answer": 1
-  },
-  {
-    "question": "How do you call the parent constructor?",
-    "choice1": "this.parent()",
-    "choice2": "super()",
-    "choice3": "parent()",
-    "choice4": "callParent()",
-    "answer": 2
-  },
-  {
-    "question": "What is a static method?",
-    "choice1": "A method called on the class, not instances",
-    "choice2": "A method that never changes",
-    "choice3": "A private method",
-    "choice4": "A cached method",
-    "answer": 1
-  },
-  {
-    "question": "How do you define a static method?",
-    "choice1": "static methodName() {}",
-    "choice2": "methodName static() {}",
-    "choice3": "static: methodName() {}",
-    "choice4": "methodName() static {}",
-    "answer": 1
-  },
-  {
-    "question": "Which is a private class field?",
-    "choice1": "#field",
-    "choice2": "private field",
-    "choice3": "_field",
-    "choice4": "field",
+    "question": "Which syntax defines a template literal?",
+    "choice1": "`Hello ${name}`",
+    "choice2": "'Hello ' + name",
+    "choice3": "\"Hello \" + name",
+    "choice4": "Hello {name}",
     "answer": 1
   }
 ]

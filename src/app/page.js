@@ -3,84 +3,46 @@
 
 import { useState } from 'react';
 
-export default function LoginPage() {
+const LoginPage=()=> {
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  //   setError('');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
 
-  //   // Simple email validation
-  //   if (!email || !email.includes('@')) {
-  //     setError('Please enter a valid email address.');
-  //     setLoading(false);
-  //     return;
-  //   }
-
-  //   try {
-  //     const res = await fetch('/api/login', {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({ email }),
-  //     });
-
-  //     if (res.ok) {
-  //       // Save email to localStorage (optional)
-  //       localStorage.setItem('studentEmail', email);
-  //       // Redirect to game
-  //       window.location.href = '/game';
-  //     } else {
-  //       const result = await res.json();
-  //       setError(result.error || 'Login failed.');
-  //     }
-  //   } catch (err) {
-  //     setError('Network error. Please try again.');
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
- const handleSubmit = async (e) => {
-  e.preventDefault();
-  console.log('Form submitted!'); // 🔥 Debug
-
-  setLoading(true);
-  setError('');
-
-  if (!email || !email.includes('@')) {
-    setError('Please enter a valid email.');
-    setLoading(false);
-    return;
-  }
-
-  try {
-    console.log('Sending fetch to /api/login...'); // 🔥
-    const res = await fetch('/api/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
-    });
-
-    console.log('Response status:', res.status); // 🔥
-
-    const data = await res.json();
-    console.log('Response data:', data); // 🔥
-
-    if (res.ok) {
-       localStorage.setItem('studentEmail', email);
-  window.location.href = '/quiz-menu';
-    } else {
-      setError(data.error || 'Login failed');
+    // Simple email validation
+    if (!email || !email.includes('@')) {
+      setError('Please enter a valid email address.');
+      setLoading(false);
+      return;
     }
-  } catch (err) {
-    console.error('Fetch error:', err); // 🔥
-    setError('Network error. Check console.');
-  } finally {
-    setLoading(false);
-  }
-};
+
+    try {
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+
+      if (res.ok) {
+        // Save email to localStorage (optional)
+        localStorage.setItem('studentEmail', email);
+        // Redirect to game
+        window.location.href = '/game';
+      } else {
+        const result = await res.json();
+        setError(result.error || 'Login failed.');
+      }
+    } catch (err) {
+      setError('Network error. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div
       className="min-h-screen flex items-center justify-center p-4"
@@ -120,3 +82,4 @@ export default function LoginPage() {
     </div>
   );
 }
+export default LoginPage;

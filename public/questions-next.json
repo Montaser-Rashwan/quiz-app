@@ -1,0 +1,842 @@
+[
+  {
+    "question": "What is Next.js primarily used for?",
+    "choice1": "Styling components",
+    "choice2": "Building static and server-side rendered React apps",
+    "choice3": "State management",
+    "choice4": "Database queries",
+    "answer": 2
+  },
+  {
+    "question": "Which company maintains Next.js?",
+    "choice1": "Meta",
+    "choice2": "Google",
+    "choice3": "Vercel",
+    "choice4": "Microsoft",
+    "answer": 3
+  },
+  {
+    "question": "Which command creates a new Next.js app?",
+    "choice1": "create-next-app my-app",
+    "choice2": "npx create-next-app my-app",
+    "choice3": "npm install next",
+    "choice4": "next init my-app",
+    "answer": 2
+  },
+  {
+    "question": "Where are pages located in a default Next.js project?",
+    "choice1": "/components",
+    "choice2": "/src",
+    "choice3": "/pages",
+    "choice4": "/views",
+    "answer": 3
+  },
+  {
+    "question": "How does Next.js handle routing by default?",
+    "choice1": "Using React Router",
+    "choice2": "File-based routing in the /pages directory",
+    "choice3": "Configuration-based routing",
+    "choice4": "Manual DOM manipulation",
+    "answer": 2
+  },
+  {
+    "question": "What is the correct file path for a route like /blog/first-post?",
+    "choice1": "/pages/blog/first-post.js",
+    "choice2": "/pages/blog/[id].js",
+    "choice3": "/pages/blog/first-post.jsx",
+    "choice4": "/pages/blog/[slug].js",
+    "answer": 4
+  },
+  {
+    "question": "Which function is used to fetch data at build time for static generation?",
+    "choice1": "getServerSideProps",
+    "choice2": "getStaticProps",
+    "choice3": "useEffect",
+    "choice4": "getInitialProps",
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to generate dynamic paths for static generation?",
+    "choice1": "getStaticPaths",
+    "choice2": "getStaticProps",
+    "choice3": "getServerSidePaths",
+    "choice4": "generateStaticParams",
+    "answer": 1
+  },
+  {
+    "question": "What does SSR stand for in Next.js?",
+    "choice1": "Super Speed Rendering",
+    "choice2": "Server-Side Rendering",
+    "choice3": "Static Site Rendering",
+    "choice4": "Simple Script Rendering",
+    "answer": 2
+  },
+  {
+    "question": "What does SSG stand for?",
+    "choice1": "Server-Side Generation",
+    "choice2": "Static Site Generation",
+    "choice3": "Simple Script Generator",
+    "choice4": "Single Source of Truth",
+    "answer": 2
+  },
+  {
+    "question": "Which function is used for server-side rendering (SSR)?",
+    "choice1": "getStaticProps",
+    "choice2": "getServerSideProps",
+    "choice3": "useEffect",
+    "choice4": "getInitialData",
+    "answer": 2
+  },
+  {
+    "question": "Where does getStaticProps run?",
+    "choice1": "On the client",
+    "choice2": "On the server at request time",
+    "choice3": "At build time",
+    "choice4": "In the browser console",
+    "answer": 3
+  },
+  {
+    "question": "Where does getServerSideProps run?",
+    "choice1": "At build time",
+    "choice2": "On the client",
+    "choice3": "On the server on every request",
+    "choice4": "In a CDN",
+    "answer": 3
+  },
+  {
+    "question": "Which file is used for custom App component in Next.js?",
+    "choice1": "pages/index.js",
+    "choice2": "pages/_app.js",
+    "choice3": "pages/root.js",
+    "choice4": "pages/main.js",
+    "answer": 2
+  },
+  {
+    "question": "Which file is used for custom Document in Next.js?",
+    "choice1": "pages/_document.js",
+    "choice2": "pages/_app.js",
+    "choice3": "pages/index.js",
+    "choice4": "pages/html.js",
+    "answer": 1
+  },
+  {
+    "question": "How do you import CSS globally in Next.js?",
+    "choice1": "Import in _app.js",
+    "choice2": "Import in index.js",
+    "choice3": "Import in _document.js",
+    "choice4": "Import in any page",
+    "answer": 1
+  },
+  {
+    "question": "Which folder is used for static assets like images?",
+    "choice1": "/public",
+    "choice2": "/assets",
+    "choice3": "/static",
+    "choice4": "/resources",
+    "answer": 1
+  },
+  {
+    "question": "How do you link between pages in Next.js?",
+    "choice1": "<a href='/about'>About</a>",
+    "choice2": "<Link href='/about'>About</Link>",
+    "choice3": "<Navigate to='/about'>About</Navigate>",
+    "choice4": "<RouterLink>/about</RouterLink>",
+    "answer": 2
+  },
+  {
+    "question": "Which component prevents full-page reloads during navigation?",
+    "choice1": "<a>",
+    "choice2": "<Link>",
+    "choice3": "<Route>",
+    "choice4": "<Navigate>",
+    "answer": 2
+  },
+  {
+    "question": "How do you handle 404 pages in Next.js?",
+    "choice1": "Create pages/404.js",
+    "choice2": "Create pages/_error.js",
+    "choice3": "Create pages/not-found.js",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "Which version of Next.js introduced the App Router?",
+    "choice1": "Next.js 10",
+    "choice2": "Next.js 12",
+    "choice3": "Next.js 13",
+    "choice4": "Next.js 14",
+    "answer": 3
+  },
+  {
+    "question": "In the App Router, where are pages located?",
+    "choice1": "/pages",
+    "choice2": "/views",
+    "choice3": "/app",
+    "choice4": "/components",
+    "answer": 3
+  },
+  {
+    "question": "Which file defines a layout in the App Router?",
+    "choice1": "layout.js",
+    "choice2": "root.js",
+    "choice3": "_layout.js",
+    "choice4": "App.js",
+    "answer": 1
+  },
+  {
+    "question": "Which file is used for a loading state in the App Router?",
+    "choice1": "loading.js",
+    "choice2": "spinner.js",
+    "choice3": "Loader.js",
+    "choice4": "loadingState.js",
+    "answer": 1
+  },
+  {
+    "question": "Which file is used to handle errors in a segment of the App Router?",
+    "choice1": "error.js",
+    "choice2": "errorBoundary.js",
+    "choice3": "_error.js",
+    "choice4": "catch.js",
+    "answer": 1
+  },
+  {
+    "question": "How do you define a route parameter in the Pages Router?",
+    "choice1": "pages/blog/[id].js",
+    "choice2": "pages/blog/:id.js",
+    "choice3": "pages/blog/{id}.js",
+    "choice4": "pages/blog/id.js",
+    "answer": 1
+  },
+  {
+    "question": "How do you access route parameters in getStaticProps?",
+    "choice1": "props.params",
+    "choice2": "context.params",
+    "choice3": "router.params",
+    "choice4": "useParams()",
+    "answer": 2
+  },
+  {
+    "question": "Which hook is used to access router in a component?",
+    "choice1": "useRouter",
+    "choice2": "useRoute",
+    "choice3": "useNavigation",
+    "choice4": "useHistory",
+    "answer": 1
+  },
+  {
+    "question": "How do you programmatically navigate in Next.js?",
+    "choice1": "window.location.href = '/about'",
+    "choice2": "router.push('/about')",
+    "choice3": "navigate('/about')",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "Which API route file handles POST requests to /api/login?",
+    "choice1": "pages/api/login.js",
+    "choice2": "pages/api/login/post.js",
+    "choice3": "pages/api/login/index.js",
+    "choice4": "pages/api/login/route.js",
+    "answer": 1
+  },
+  {
+    "question": "Where are API routes located in Next.js?",
+    "choice1": "/api",
+    "choice2": "/functions",
+    "choice3": "/pages/api",
+    "choice4": "/server",
+    "answer": 3
+  },
+  {
+    "question": "What is the default behavior of API routes?",
+    "choice1": "They are client-side only",
+    "choice2": "They run on the server as serverless functions",
+    "choice3": "They run on the client",
+    "choice4": "They are static files",
+    "answer": 2
+  },
+  {
+    "question": "Which method is used to fetch data on the client side?",
+    "choice1": "getStaticProps",
+    "choice2": "fetch() or useSWR",
+    "choice3": "getServerSideProps",
+    "choice4": "getInitialProps",
+    "answer": 2
+  },
+  {
+    "question": "What is ISR in Next.js?",
+    "choice1": "Instant Server Reload",
+    "choice2": "Incremental Static Regeneration",
+    "choice3": "Interactive Server Rendering",
+    "choice4": "Integrated Static Routing",
+    "answer": 2
+  },
+  {
+    "question": "How do you enable ISR in getStaticProps?",
+    "choice1": "{ revalidate: 60 }",
+    "choice2": "{ cache: 'force-cache' }",
+    "choice3": "{ isStatic: true }",
+    "choice4": "{ incremental: true }",
+    "answer": 1
+  },
+  {
+    "question": "What does revalidate: 60 mean in getStaticProps?",
+    "choice1": "Regenerate the page every 60 seconds",
+    "choice2": "Cache for 60 minutes",
+    "choice3": "Wait 60ms before rendering",
+    "choice4": "Try 60 times",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about fallback in getStaticPaths?",
+    "choice1": "It controls behavior for undefined paths",
+    "choice2": "It disables routing",
+    "choice3": "It forces SSR",
+    "choice4": "It enables client-side routing",
+    "answer": 1
+  },
+  {
+    "question": "What does fallback: 'blocking' do?",
+    "choice1": "Shows 404 for unknown paths",
+    "choice2": "Renders page on demand without loading state",
+    "choice3": "Shows loading state",
+    "choice4": "Disables fallback",
+    "answer": 2
+  },
+  {
+    "question": "What does fallback: true do in getStaticPaths?",
+    "choice1": "Shows loading state while generating",
+    "choice2": "Returns 404",
+    "choice3": "Renders immediately",
+    "choice4": "Blocks navigation",
+    "answer": 1
+  },
+  {
+    "question": "Which component is used to optimize images in Next.js?",
+    "choice1": "<img>",
+    "choice2": "<Image> from 'next/image'",
+    "choice3": "<Picture>",
+    "choice4": "<OptimizedImage>",
+    "answer": 2
+  },
+  {
+    "question": "What is a key benefit of next/image?",
+    "choice1": "Automatic lazy loading and optimization",
+    "choice2": "Better styling",
+    "choice3": "Faster JavaScript execution",
+    "choice4": "Built-in animations",
+    "answer": 1
+  },
+  {
+    "question": "Which domain must be configured to use next/image with external URLs?",
+    "choice1": "images.json",
+    "choice2": "next.config.js domains",
+    "choice3": "image.config.js",
+    "choice4": "public/images.txt",
+    "answer": 2
+  },
+  {
+    "question": "How do you configure environment variables in Next.js?",
+    "choice1": ".env file",
+    "choice2": "process.env.VAR_NAME",
+    "choice3": "next.config.js",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which prefix allows environment variables to be exposed to the browser?",
+    "choice1": "NEXT_PUBLIC_",
+    "choice2": "CLIENT_",
+    "choice3": "PUBLIC_",
+    "choice4": "BROWSER_",
+    "answer": 1
+  },
+  {
+    "question": "Where should secrets like API keys be placed?",
+    "choice1": ".env.local",
+    "choice2": ".env.production",
+    "choice3": "Hardcoded in JS",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "Which file is used to customize Next.js config?",
+    "choice1": "next.config.js",
+    "choice2": "next.config.mjs",
+    "choice3": "next.json",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "How do you enable TypeScript in Next.js?",
+    "choice1": "Create a .ts file",
+    "choice2": "Run next dev and create tsconfig.json",
+    "choice3": "Install typescript and @types/react",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which command starts the Next.js development server?",
+    "choice1": "next start",
+    "choice2": "next dev",
+    "choice3": "npm run dev",
+    "choice4": "Both B and C",
+    "answer": 4
+  },
+  {
+    "question": "Which command builds the Next.js app for production?",
+    "choice1": "next build",
+    "choice2": "npm run build",
+    "choice3": "next compile",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "Which command starts the production server?",
+    "choice1": "next start",
+    "choice2": "next serve",
+    "choice3": "npm run serve",
+    "choice4": "next production",
+    "answer": 1
+  },
+  {
+    "question": "Which folder is ignored by default in Next.js?",
+    "choice1": "/public",
+    "choice2": "/pages",
+    "choice3": "/node_modules",
+    "choice4": "/src",
+    "answer": 3
+  },
+  {
+    "question": "Can you use both App Router and Pages Router in the same project?",
+    "choice1": "No",
+    "choice2": "Yes, but not recommended",
+    "choice3": "Only in development",
+    "choice4": "Yes, they coexist",
+    "answer": 4
+  },
+  {
+    "question": "What is the default rendering strategy for a new page in App Router?",
+    "choice1": "SSR",
+    "choice2": "SSG",
+    "choice3": "CSR",
+    "choice4": "Depends on usage",
+    "answer": 4
+  },
+  {
+    "question": "How do you force static rendering in App Router?",
+    "choice1": "Use generateStaticParams",
+    "choice2": "Use cache: 'force-cache'",
+    "choice3": "Use revalidate: 0",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "How do you force dynamic rendering in App Router?",
+    "choice1": "Use dynamic: 'force-dynamic'",
+    "choice2": "Use fetch with cache: 'no-store'",
+    "choice3": "Use cookies() or headers()",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which function replaces getServerSideProps in App Router?",
+    "choice1": "fetch()",
+    "choice2": "getData()",
+    "choice3": "Server Components handle it automatically",
+    "choice4": "There is no direct replacement",
+    "answer": 3
+  },
+  {
+    "question": "Where can you use async/await in App Router?",
+    "choice1": "Server Components",
+    "choice2": "Client Components",
+    "choice3": "Both",
+    "choice4": "Nowhere",
+    "answer": 1
+  },
+  {
+    "question": "How do you mark a component as a Client Component?",
+    "choice1": "Add 'use client' at the top",
+    "choice2": "Add 'client' prop",
+    "choice3": "Name it with .client.js",
+    "choice4": "Import from 'next/client'",
+    "answer": 1
+  },
+  {
+    "question": "How do you mark a component as a Server Component?",
+    "choice1": "Add 'use server'",
+    "choice2": "Do nothing — it's default",
+    "choice3": "Add 'server' prop",
+    "choice4": "Name it with .server.js",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following can be used directly in Server Components?",
+    "choice1": "useState",
+    "choice2": "Browser APIs like localStorage",
+    "choice3": "Database queries",
+    "choice4": "onClick handlers",
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of the 'use client' directive?",
+    "choice1": "To enable React hooks and interactivity",
+    "choice2": "To disable server rendering",
+    "choice3": "To import client-only libraries",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which hook is used for client-side data fetching?",
+    "choice1": "useEffect + fetch",
+    "choice2": "useSWR",
+    "choice3": "React Query",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What is middleware in Next.js?",
+    "choice1": "Code that runs before a request is completed",
+    "choice2": "A UI component",
+    "choice3": "A database layer",
+    "choice4": "A styling tool",
+    "answer": 1
+  },
+  {
+    "question": "Where is middleware defined?",
+    "choice1": "middleware.js in root or app directory",
+    "choice2": "next.config.js",
+    "choice3": "pages/_middleware.js",
+    "choice4": "server.js",
+    "answer": 1
+  },
+  {
+    "question": "What can middleware do?",
+    "choice1": "Redirect requests",
+    "choice2": "Rewrite URLs",
+    "choice3": "Modify headers",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is true about Server Components?",
+    "choice1": "They reduce bundle size",
+    "choice2": "They can access backend resources",
+    "choice3": "They don't send JavaScript to the client",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which file defines a route handler in the App Router API?",
+    "choice1": "route.js",
+    "choice2": "api.js",
+    "choice3": "handler.js",
+    "choice4": "server.js",
+    "answer": 1
+  },
+  {
+    "question": "Which HTTP methods can be exported in a route.js file?",
+    "choice1": "GET, POST, PUT, DELETE, etc.",
+    "choice2": "Only GET",
+    "choice3": "Only POST",
+    "choice4": "None",
+    "answer": 1
+  },
+  {
+    "question": "How do you access request data in a route handler?",
+    "choice1": "request.json()",
+    "choice2": "req.body",
+    "choice3": "Both A and B",
+    "choice4": "request.body",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a valid way to return a JSON response?",
+    "choice1": "return Response.json(data)",
+    "choice2": "res.json(data)",
+    "choice3": "return { data }",
+    "choice4": "send(data)",
+    "answer": 1
+  },
+  {
+    "question": "What is the default caching behavior in App Router?",
+    "choice1": "Cache everything",
+    "choice2": "No caching",
+    "choice3": "Auto-caching based on fetch calls",
+    "choice4": "Manual only",
+    "answer": 3
+  },
+  {
+    "question": "How do you disable caching for a fetch call?",
+    "choice1": "fetch(url, { cache: 'no-store' })",
+    "choice2": "fetch(url, { cache: 'force-cache' })",
+    "choice3": "fetch(url, { revalidate: 0 })",
+    "choice4": "disableCache: true",
+    "answer": 1
+  },
+  {
+    "question": "How do you enable streaming in Server Components?",
+    "choice1": "Using React Suspense",
+    "choice2": "Using async/await",
+    "choice3": "Using fetch",
+    "choice4": "It's automatic",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about next/link?",
+    "choice1": "It prefetches pages by default",
+    "choice2": "It prevents full reloads",
+    "choice3": "It works with both routers",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which component is used for dynamic imports?",
+    "choice1": "React.lazy",
+    "choice2": "next/dynamic",
+    "choice3": "Both",
+    "choice4": "import()",
+    "answer": 3
+  },
+  {
+    "question": "How do you create a custom error page for 500 errors?",
+    "choice1": "pages/500.js",
+    "choice2": "pages/_error.js",
+    "choice3": "pages/error.js",
+    "choice4": "Both A and B",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about next/script?",
+    "choice1": "It controls script loading strategy",
+    "choice2": "It supports beforeInteractive, afterInteractive, lazyOnload",
+    "choice3": "It replaces <script>",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which command runs linting in a Next.js app?",
+    "choice1": "next lint",
+    "choice2": "npm run lint",
+    "choice3": "eslint .",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is NOT a valid Next.js rendering strategy?",
+    "choice1": "SSG",
+    "choice2": "SSR",
+    "choice3": "CSR",
+    "choice4": "DSG (Dynamic Static Generation)",
+    "answer": 4
+  },
+  {
+    "question": "What is the purpose of next/head?",
+    "choice1": "To manage meta tags and document head",
+    "choice2": "To style the page",
+    "choice3": "To handle routing",
+    "choice4": "To manage state",
+    "answer": 1
+  },
+  {
+    "question": "How do you deploy a Next.js app on Vercel?",
+    "choice1": "Push to GitHub and connect",
+    "choice2": "Use vercel CLI",
+    "choice3": "Both",
+    "choice4": "Manual FTP upload",
+    "answer": 3
+  },
+  {
+    "question": "Which file is used for redirects and rewrites in next.config.js?",
+    "choice1": "redirects()",
+    "choice2": "rewrites()",
+    "choice3": "Both",
+    "choice4": "routes()",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is true about Image Optimization in Next.js?",
+    "choice1": "It resizes images on-demand",
+    "choice2": "It supports WebP",
+    "choice3": "It works with remote images (with domains)",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is true about Fast Refresh in Next.js?",
+    "choice1": "It preserves component state",
+    "choice2": "It updates code instantly",
+    "choice3": "It works during development",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "What is the correct way to export a config in next.config.js?",
+    "choice1": "module.exports = {}",
+    "choice2": "export default {}",
+    "choice3": "Both",
+    "choice4": "config = {}",
+    "answer": 3
+  },
+    {
+    "question": "Which directive is used to mark a component as a Client Component in the App Router?",
+    "choice1": "'use client-side'",
+    "choice2": "'use interactive'",
+    "choice3": "'use client'",
+    "choice4": "'client'",
+    "answer": 3
+  },
+  {
+    "question": "How do you define a catch-all route for /docs/a/b/c in the Pages Router?",
+    "choice1": "pages/docs/[...slug].js",
+    "choice2": "pages/docs/[slug].js",
+    "choice3": "pages/docs/*.js",
+    "choice4": "pages/docs/_all.js",
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of generateStaticParams in the App Router?",
+    "choice1": "To fetch data on the client",
+    "choice2": "To pre-render dynamic routes at build time",
+    "choice3": "To enable API routes",
+    "choice4": "To lazy-load components",
+    "answer": 2
+  },
+  {
+    "question": "Which hook is used to scroll to the top when navigating between pages?",
+    "choice1": "useEffect",
+    "choice2": "useRouter",
+    "choice3": "useScrollRestoration",
+    "choice4": "There is no built-in hook; you implement it manually",
+    "answer": 4
+  },
+  {
+    "question": "Where should you place environment variables for local development?",
+    "choice1": ".env.production",
+    "choice2": ".env",
+    "choice3": ".env.local",
+    "choice4": "next.config.js",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is true about Server Components in Next.js?",
+    "choice1": "They can use useState and useEffect",
+    "choice2": "They run only in the browser",
+    "choice3": "They can directly access databases or APIs",
+    "choice4": "They require JavaScript to be sent to the client",
+    "answer": 3
+  },
+  {
+    "question": "How do you programmatically redirect in a Server Component in the App Router?",
+    "choice1": "router.push('/home')",
+    "choice2": "redirect('/home') from 'next/navigation'",
+    "choice3": "window.location = '/home'",
+    "choice4": "navigate('/home')",
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to rewrite a URL in middleware?",
+    "choice1": "NextResponse.rewrite()",
+    "choice2": "NextResponse.redirect()",
+    "choice3": "NextResponse.rewriteURL()",
+    "choice4": "NextResponse.modify()",
+    "answer": 1
+  },
+  {
+    "question": "What does the 'next export' command do?",
+    "choice1": "Exports static HTML files (for static sites)",
+    "choice2": "Exports components as a library",
+    "choice3": "Exports data from getStaticProps",
+    "choice4": "Exports environment variables",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid caching option in fetch() in App Router?",
+    "choice1": "cache: 'force-cache'",
+    "choice2": "cache: 'no-store'",
+    "choice3": "cache: 'default'",
+    "choice4": "cache: 'stream'",
+    "answer": 4
+  },
+   {
+    "question": "Which component is used to prefetch pages in Next.js when using <Link>?",
+    "choice1": "Prefetcher",
+    "choice2": "NextScript",
+    "choice3": "Link automatically prefetches",
+    "choice4": "PageLoader",
+    "answer": 3
+  },
+  {
+    "question": "How do you disable prefetching in a <Link> component?",
+    "choice1": "prefetch={false}",
+    "choice2": "noPrefetch",
+    "choice3": "disablePrefetch",
+    "choice4": "prefetch='off'",
+    "answer": 1
+  },
+  {
+    "question": "In the App Router, where should you place shared UI between routes?",
+    "choice1": "layout.js",
+    "choice2": "template.js",
+    "choice3": "component.js",
+    "choice4": "Both A and B",
+    "answer": 4
+  },
+  {
+    "question": "What is the difference between layout.js and template.js in the App Router?",
+    "choice1": "Layout preserves state, template resets on re-render",
+    "choice2": "Template preserves state, layout resets",
+    "choice3": "Both are identical",
+    "choice4": "Template is deprecated",
+    "answer": 1
+  },
+  {
+    "question": "Which hook is used to access search parameters in the App Router?",
+    "choice1": "useParams()",
+    "choice2": "useSearchParams()",
+    "choice3": "useRouter()",
+    "choice4": "Both B and C",
+    "answer": 4
+  },
+  {
+    "question": "How do you handle form submissions in Server Components?",
+    "choice1": "Using useState",
+    "choice2": "Using client-side JavaScript",
+    "choice3": "Using Server Actions",
+    "choice4": "Using API routes only",
+    "answer": 3
+  },
+  {
+    "question": "Which directive enables Server Actions in Next.js?",
+    "choice1": "'use server'",
+    "choice2": "'server action'",
+    "choice3": "'action'",
+    "choice4": "'use action'",
+    "answer": 1
+  },
+  {
+    "question": "Where can you define a Server Action?",
+    "choice1": "In a Client Component",
+    "choice2": "In a Server Component or Route Handler",
+    "choice3": "In any .js file",
+    "choice4": "Only in API routes",
+    "answer": 2
+  },
+  {
+    "question": "Which file enables custom fonts in Next.js?",
+    "choice1": "_document.js",
+    "choice2": "next.config.js",
+    "choice3": "layout.js",
+    "choice4": "globals.css",
+    "answer": 1
+  },
+  {
+    "question": "How do you add a custom font using Google Fonts in Next.js?",
+    "choice1": "Import in CSS",
+    "choice2": "Use next/font",
+    "choice3": "Link in _document.js <Head>",
+    "choice4": "All of the above",
+    "answer": 4
+  }
+]

@@ -1,794 +1,814 @@
 [
   {
     "question": "What does HTML stand for?",
-    "choice1": "HyperText Markup Language",
-    "choice2": "HighText Machine Language",
-    "choice3": "HyperTool MultiLanguage",
-    "choice4": "HyperTransfer Markup Language",
+    "choice1": "Hyper Text Markup Language",
+    "choice2": "High Tech Modern Language",
+    "choice3": "Home Tool Markup Language",
+    "choice4": "Hyper Transfer Markup Language",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define the root of an HTML document?",
-    "choice1": "<html>",
-    "choice2": "<head>",
+    "question": "Which tag defines the root of an HTML document?",
+    "choice1": "<head>",
+    "choice2": "<html>",
     "choice3": "<body>",
-    "choice4": "<root>",
-    "answer": 1
+    "choice4": "<document>",
+    "answer": 2
   },
   {
-    "question": "Which tag is used to define the title of an HTML document?",
-    "choice1": "<title>",
-    "choice2": "<header>",
-    "choice3": "<h1>",
+    "question": "Which tag contains metadata about the document?",
+    "choice1": "<body>",
+    "choice2": "<html>",
+    "choice3": "<head>",
     "choice4": "<meta>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to create a hyperlink in HTML?",
-    "choice1": "<a>",
-    "choice2": "<link>",
-    "choice3": "<href>",
-    "choice4": "<url>",
-    "answer": 1
-  },
-  {
-    "question": "What attribute specifies the URL of the page the link goes to?",
-    "choice1": "src",
-    "choice2": "href",
-    "choice3": "link",
-    "choice4": "url",
-    "answer": 2
-  },
-  {
-    "question": "Which tag is used to create an unordered list in HTML?",
-    "choice1": "<ul>",
-    "choice2": "<ol>",
-    "choice3": "<list>",
-    "choice4": "<li>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to create an ordered list in HTML?",
-    "choice1": "<ul>",
-    "choice2": "<ol>",
-    "choice3": "<list>",
-    "choice4": "<li>",
-    "answer": 2
-  },
-  {
-    "question": "Which tag is used to define a list item in HTML?",
-    "choice1": "<ul>",
-    "choice2": "<ol>",
-    "choice3": "<li>",
-    "choice4": "<list>",
     "answer": 3
   },
   {
-    "question": "Which tag is used to create a table in HTML?",
-    "choice1": "<table>",
-    "choice2": "<tr>",
-    "choice3": "<td>",
-    "choice4": "<th>",
+    "question": "Which tag defines the visible content of a webpage?",
+    "choice1": "<body>",
+    "choice2": "<html>",
+    "choice3": "<content>",
+    "choice4": "<page>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a table row in HTML?",
-    "choice1": "<table>",
-    "choice2": "<tr>",
-    "choice3": "<td>",
-    "choice4": "<th>",
-    "answer": 2
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "choice1": "<a href='url'>Link</a>",
+    "choice2": "<link>url</link>",
+    "choice3": "<href>url</href>",
+    "choice4": "<url>Link</url>",
+    "answer": 1
   },
   {
-    "question": "Which tag is used to define a table cell in HTML?",
-    "choice1": "<table>",
-    "choice2": "<tr>",
-    "choice3": "<td>",
-    "choice4": "<th>",
-    "answer": 3
-  },
-  {
-    "question": "Which tag is used to define a table header in HTML?",
-    "choice1": "<table>",
-    "choice2": "<tr>",
-    "choice3": "<td>",
-    "choice4": "<th>",
-    "answer": 4
-  },
-  {
-    "question": "Which tag is used to add an image in HTML?",
-    "choice1": "<image>",
-    "choice2": "<img>",
-    "choice3": "<picture>",
+    "question": "Which tag is used to insert an image?",
+    "choice1": "<img>",
+    "choice2": "<image>",
+    "choice3": "<pic>",
     "choice4": "<photo>",
-    "answer": 2
-  },
-  {
-    "question": "Which attribute specifies the path to the image in an <img> tag?",
-    "choice1": "src",
-    "choice2": "href",
-    "choice3": "path",
-    "choice4": "url",
     "answer": 1
   },
   {
-    "question": "Which tag is used to create a form in HTML?",
-    "choice1": "<form>",
-    "choice2": "<input>",
-    "choice3": "<field>",
-    "choice4": "<form-group>",
-    "answer": 1
-  },
-  {
-    "question": "Which input type is used to create a text field in a form?",
-    "choice1": "<input type='text'>",
-    "choice2": "<input type='number'>",
-    "choice3": "<input type='email'>",
-    "choice4": "<input type='password'>",
-    "answer": 1
-  },
-  {
-    "question": "Which input type is used to create a checkbox in a form?",
-    "choice1": "<checkbox>",
-    "choice2": "<input type='checkbox'>",
-    "choice3": "<check>",
-    "choice4": "<box>",
+    "question": "Which attribute specifies the image source?",
+    "choice1": "alt",
+    "choice2": "src",
+    "choice3": "href",
+    "choice4": "link",
     "answer": 2
   },
   {
-    "question": "Which input type is used to create a radio button in a form?",
-    "choice1": "<radio>",
-    "choice2": "<input type='radio'>",
-    "choice3": "<radio-button>",
-    "choice4": "<option>",
-    "answer": 2
-  },
-  {
-    "question": "Which tag is used to create a dropdown list in HTML?",
-    "choice1": "<select>",
-    "choice2": "<dropdown>",
-    "choice3": "<option>",
+    "question": "How do you create a numbered list in HTML?",
+    "choice1": "<ul>",
+    "choice2": "<ol>",
+    "choice3": "<dl>",
     "choice4": "<list>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define options in a dropdown list?",
-    "choice1": "<select>",
-    "choice2": "<dropdown>",
-    "choice3": "<option>",
-    "choice4": "<list>",
-    "answer": 3
-  },
-  {
-    "question": "Which tag is used to create a button in HTML?",
-    "choice1": "<button>",
-    "choice2": "<input type='button'>",
-    "choice3": "<btn>",
-    "choice4": "<submit>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to embed JavaScript in an HTML document?",
-    "choice1": "<script>",
-    "choice2": "<js>",
-    "choice3": "<javascript>",
-    "choice4": "<code>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to link an external CSS file in HTML?",
-    "choice1": "<style>",
-    "choice2": "<css>",
-    "choice3": "<link>",
-    "choice4": "<stylesheet>",
-    "answer": 3
-  },
-  {
-    "question": "Which attribute specifies the character encoding for an HTML document?",
-    "choice1": "<meta charset='UTF-8'>",
-    "choice2": "<charset UTF-8>",
-    "choice3": "<encoding UTF-8>",
-    "choice4": "<meta encoding='UTF-8'>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to make text bold in HTML?",
-    "choice1": "<b>",
-    "choice2": "<bold>",
-    "choice3": "<strong>",
-    "choice4": "Both 1 and 3",
-    "answer": 4
-  },
-  {
-    "question": "Which tag is used to make text italic in HTML?",
-    "choice1": "<italic>",
-    "choice2": "<i>",
-    "choice3": "<em>",
-    "choice4": "Both 2 and 3",
-    "answer": 4
-  },
-  {
-    "question": "Which tag is used to underline text in HTML?",
-    "choice1": "<under>",
-    "choice2": "<u>",
-    "choice3": "<underline>",
-    "choice4": "<line>",
     "answer": 2
   },
   {
-    "question": "Which tag is used to create a horizontal line in HTML?",
+    "question": "How do you create a bulleted list in HTML?",
+    "choice1": "<ol>",
+    "choice2": "<ul>",
+    "choice3": "<dl>",
+    "choice4": "<list>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a list item?",
+    "choice1": "<li>",
+    "choice2": "<item>",
+    "choice3": "<list>",
+    "choice4": "<element>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a table?",
+    "choice1": "<table>",
+    "choice2": "<tbl>",
+    "choice3": "<tab>",
+    "choice4": "<grid>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a table row?",
+    "choice1": "<tr>",
+    "choice2": "<td>",
+    "choice3": "<th>",
+    "choice4": "<row>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a table header cell?",
+    "choice1": "<td>",
+    "choice2": "<th>",
+    "choice3": "<cell>",
+    "choice4": "<header>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a table data cell?",
+    "choice1": "<th>",
+    "choice2": "<td>",
+    "choice3": "<data>",
+    "choice4": "<cell>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag groups the body content in a table?",
+    "choice1": "<tbody>",
+    "choice2": "<body>",
+    "choice3": "<content>",
+    "choice4": "<main>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag is used for a line break?",
+    "choice1": "<br>",
+    "choice2": "<break>",
+    "choice3": "<lb>",
+    "choice4": "<newline>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag inserts a horizontal rule?",
     "choice1": "<hr>",
-    "choice2": "<vr>",
-    "choice3": "<line>",
-    "choice4": "<horizontal>",
+    "choice2": "<line>",
+    "choice3": "<rule>",
+    "choice4": "<break>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a section in an HTML document?",
-    "choice1": "<section>",
-    "choice2": "<div>",
-    "choice3": "<part>",
-    "choice4": "<area>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a header in an HTML document?",
-    "choice1": "<header>",
-    "choice2": "<head>",
-    "choice3": "<top>",
-    "choice4": "<start>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a footer in an HTML document?",
-    "choice1": "<footer>",
-    "choice2": "<bottom>",
-    "choice3": "<end>",
-    "choice4": "<last>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define metadata about an HTML document?",
-    "choice1": "<meta>",
-    "choice2": "<metadata>",
-    "choice3": "<info>",
-    "choice4": "<data>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define the main content of an HTML document?",
-    "choice1": "<main>",
-    "choice2": "<content>",
-    "choice3": "<body>",
-    "choice4": "<primary>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a navigation menu in HTML?",
-    "choice1": "<nav>",
-    "choice2": "<menu>",
-    "choice3": "<navigation>",
-    "choice4": "<links>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to create a video player in HTML?",
-    "choice1": "<video>",
-    "choice2": "<media>",
-    "choice3": "<player>",
-    "choice4": "<movie>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to create an audio player in HTML?",
-    "choice1": "<audio>",
-    "choice2": "<sound>",
-    "choice3": "<music>",
-    "choice4": "<player>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a division or a section in HTML?",
-    "choice1": "<div>",
-    "choice2": "<section>",
-    "choice3": "<part>",
-    "choice4": "<area>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a paragraph in HTML?",
+    "question": "Which tag defines a paragraph?",
     "choice1": "<p>",
-    "choice2": "<paragraph>",
-    "choice3": "<para>",
+    "choice2": "<para>",
+    "choice3": "<paragraph>",
     "choice4": "<text>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a line break in HTML?",
-    "choice1": "<br>",
-    "choice2": "<break>",
-    "choice3": "<newline>",
-    "choice4": "<lb>",
+    "question": "Which tag is used to define bold text?",
+    "choice1": "<b>",
+    "choice2": "<strong>",
+    "choice3": "Both <b> and <strong>",
+    "choice4": "<bold>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to define italic text?",
+    "choice1": "<i>",
+    "choice2": "<em>",
+    "choice3": "Both <i> and <em>",
+    "choice4": "<italic>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag defines emphasized text?",
+    "choice1": "<em>",
+    "choice2": "<i>",
+    "choice3": "<strong>",
+    "choice4": "<emphasis>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a comment in HTML?",
-    "choice1": "<!-- -->",
-    "choice2": "<comment>",
-    "choice3": "//",
-    "choice4": "/* */",
+    "question": "Which tag defines strongly important text?",
+    "choice1": "<strong>",
+    "choice2": "<b>",
+    "choice3": "<important>",
+    "choice4": "<em>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a caption for a table in HTML?",
-    "choice1": "<caption>",
-    "choice2": "<title>",
-    "choice3": "<label>",
-    "choice4": "<header>",
+    "question": "Which tag defines underlined text?",
+    "choice1": "<u>",
+    "choice2": "<underline>",
+    "choice3": "<mark>",
+    "choice4": "<ins>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a group of related elements in a form?",
-    "choice1": "<fieldset>",
-    "choice2": "<group>",
-    "choice3": "<div>",
+    "question": "Which tag defines highlighted text?",
+    "choice1": "<mark>",
+    "choice2": "<highlight>",
+    "choice3": "<u>",
+    "choice4": "<strong>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines inserted text?",
+    "choice1": "<ins>",
+    "choice2": "<insert>",
+    "choice3": "<add>",
+    "choice4": "<new>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines deleted text?",
+    "choice1": "<del>",
+    "choice2": "<delete>",
+    "choice3": "<removed>",
+    "choice4": "<strike>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a quotation?",
+    "choice1": "<q>",
+    "choice2": "<blockquote>",
+    "choice3": "Both <q> and <blockquote>",
+    "choice4": "<quote>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag defines a long quotation?",
+    "choice1": "<q>",
+    "choice2": "<blockquote>",
+    "choice3": "<quote>",
+    "choice4": "<long>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a short inline quote?",
+    "choice1": "<q>",
+    "choice2": "<quote>",
+    "choice3": "<blockquote>",
+    "choice4": "<short>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a citation?",
+    "choice1": "<cite>",
+    "choice2": "<citation>",
+    "choice3": "<source>",
+    "choice4": "<ref>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines computer code?",
+    "choice1": "<code>",
+    "choice2": "<pre>",
+    "choice3": "<kbd>",
+    "choice4": "<samp>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines preformatted text?",
+    "choice1": "<pre>",
+    "choice2": "<code>",
+    "choice3": "<text>",
+    "choice4": "<formatted>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines keyboard input?",
+    "choice1": "<kbd>",
+    "choice2": "<key>",
+    "choice3": "<input>",
+    "choice4": "<code>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines sample output?",
+    "choice1": "<samp>",
+    "choice2": "<output>",
+    "choice3": "<result>",
+    "choice4": "<code>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a variable?",
+    "choice1": "<var>",
+    "choice2": "<variable>",
+    "choice3": "<math>",
+    "choice4": "<code>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a division or section?",
+    "choice1": "<div>",
+    "choice2": "<section>",
+    "choice3": "<span>",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which tag defines a span of inline text?",
+    "choice1": "<div>",
+    "choice2": "<span>",
+    "choice3": "<section>",
+    "choice4": "<inline>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a header for a page or section?",
+    "choice1": "<header>",
+    "choice2": "<head>",
+    "choice3": "<h1>",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which tag defines a footer?",
+    "choice1": "<footer>",
+    "choice2": "<bottom>",
+    "choice3": "<foot>",
+    "choice4": "<end>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines navigation links?",
+    "choice1": "<nav>",
+    "choice2": "<navigate>",
+    "choice3": "<navigation>",
+    "choice4": "<menu>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines an article?",
+    "choice1": "<article>",
+    "choice2": "<post>",
+    "choice3": "<section>",
+    "choice4": "<div>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines self-contained content?",
+    "choice1": "<div>",
+    "choice2": "<span>",
+    "choice3": "<article>",
     "choice4": "<section>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag defines side content like a sidebar?",
+    "choice1": "<aside>",
+    "choice2": "<sidebar>",
+    "choice3": "<side>",
+    "choice4": "<panel>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a label for an input element in HTML?",
-    "choice1": "<label>",
-    "choice2": "<legend>",
-    "choice3": "<caption>",
+    "question": "Which tag groups a figure with its caption?",
+    "choice1": "<figure>",
+    "choice2": "<img>",
+    "choice3": "<div>",
+    "choice4": "<group>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a figure caption?",
+    "choice1": "<caption>",
+    "choice2": "<figcaption>",
+    "choice3": "<figure>",
+    "choice4": "<desc>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a definition list?",
+    "choice1": "<dl>",
+    "choice2": "<ol>",
+    "choice3": "<ul>",
+    "choice4": "<list>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a definition term?",
+    "choice1": "<dt>",
+    "choice2": "<dd>",
+    "choice3": "<dl>",
+    "choice4": "<term>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a definition description?",
+    "choice1": "<dt>",
+    "choice2": "<dd>",
+    "choice3": "<desc>",
+    "choice4": "<definition>",
+    "answer": 2
+  },
+  {
+    "question": "Which attribute gives a unique ID to an element?",
+    "choice1": "class",
+    "choice2": "id",
+    "choice3": "name",
+    "choice4": "style",
+    "answer": 2
+  },
+  {
+    "question": "Which attribute assigns a class to an element?",
+    "choice1": "id",
+    "choice2": "class",
+    "choice3": "type",
+    "choice4": "style",
+    "answer": 2
+  },
+  {
+    "question": "Which attribute specifies a title for an element?",
+    "choice1": "title",
+    "choice2": "alt",
+    "choice3": "label",
+    "choice4": "name",
+    "answer": 1
+  },
+  {
+    "question": "Which attribute specifies alternate text for an image?",
+    "choice1": "alt",
+    "choice2": "src",
+    "choice3": "title",
+    "choice4": "href",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a hyperlink to an email?",
+    "choice1": "<a href='mailto:email@example.com'>",
+    "choice2": "<email>email@example.com</email>",
+    "choice3": "<a href='email@example.com'>",
+    "choice4": "<mail>email@example.com</mail>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a hyperlink that opens in a new tab?",
+    "choice1": "<a href='url' target='_blank'>",
+    "choice2": "<a href='url' new='true'>",
+    "choice3": "<a href='url' open='new'>",
+    "choice4": "<a href='url' window='new'>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a form?",
+    "choice1": "<form>",
+    "choice2": "<input>",
+    "choice3": "<data>",
+    "choice4": "<entry>",
+    "answer": 1
+  },
+  
+  {
+    "question": "Which tag links to an external resource like CSS?",
+    "choice1": "<link>",
+    "choice2": "<css>",
+    "choice3": "<style>",
+    "choice4": "<import>",
+    "answer": 1
+  },
+  {
+    "question": "Which attribute in <link> specifies the relationship?",
+    "choice1": "href",
+    "choice2": "src",
+    "choice3": "rel",
+    "choice4": "type",
+    "answer": 3
+  },
+  {
+    "question": "Which attribute specifies the character encoding?",
+    "choice1": "charset",
+    "choice2": "encoding",
+    "choice3": "lang",
+    "choice4": "type",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines the language of the document?",
+    "choice1": "<html lang='en'>",
+    "choice2": "<lang>",
+    "choice3": "<language>",
+    "choice4": "<meta>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a container for SVG graphics?",
+    "choice1": "<svg>",
+    "choice2": "<canvas>",
+    "choice3": "<graphic>",
+    "choice4": "<vector>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a container for dynamic graphics (e.g., JavaScript)?",
+    "choice1": "<canvas>",
+    "choice2": "<svg>",
+    "choice3": "<draw>",
+    "choice4": "<graphic>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a header cell in a table?",
+    "choice1": "<th>",
+    "choice2": "<td>",
+    "choice3": "<tr>",
+    "choice4": "<head>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a table footer?",
+    "choice1": "<tfoot>",
+    "choice2": "<footer>",
+    "choice3": "<bottom>",
+    "choice4": "<end>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a heading level 1?",
+    "choice1": "<h1>",
+    "choice2": "<heading>",
+    "choice3": "<head>",
     "choice4": "<title>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to create a textarea in HTML?",
-    "choice1": "<textarea>",
-    "choice2": "<input type='text'>",
-    "choice3": "<text>",
-    "choice4": "<area>",
+    "question": "Which tag defines a generic container for flow content?",
+    "choice1": "<div>",
+    "choice2": "<span>",
+    "choice3": "<container>",
+    "choice4": "<section>",
     "answer": 1
   },
   {
-    "question": "Which attribute specifies the width of an image in HTML?",
-    "choice1": "width",
-    "choice2": "size",
-    "choice3": "height",
-    "choice4": "dimension",
+    "question": "Which tag defines a small piece of inline content?",
+    "choice1": "<span>",
+    "choice2": "<div>",
+    "choice3": "<small>",
+    "choice4": "<inline>",
     "answer": 1
   },
   {
-    "question": "Which attribute specifies the height of an image in HTML?",
-    "choice1": "width",
-    "choice2": "size",
-    "choice3": "height",
-    "choice4": "dimension",
+    "question": "Which tag defines a thematic break between paragraphs?",
+    "choice1": "<hr>",
+    "choice2": "<br>",
+    "choice3": "<break>",
+    "choice4": "<line>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a quoted section of another source?",
+    "choice1": "<blockquote>",
+    "choice2": "<q>",
+    "choice3": "<quote>",
+    "choice4": "<citation>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines the base URL for all relative links?",
+    "choice1": "<base>",
+    "choice2": "<link>",
+    "choice3": "<url>",
+    "choice4": "<home>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a text input field?",
+    "choice1": "<input type='text'>",
+    "choice2": "<text>",
+    "choice3": "<textfield>",
+    "choice4": "<input>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a password input field?",
+    "choice1": "<input type='password'>",
+    "choice2": "<password>",
+    "choice3": "<input>",
+    "choice4": "<secret>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a checkbox?",
+    "choice1": "<input type='check'>",
+    "choice2": "<checkbox>",
+    "choice3": "<input type='checkbox'>",
+    "choice4": "<check>",
     "answer": 3
   },
   {
-    "question": "Which attribute is used to specify alternative text for an image in HTML?",
-    "choice1": "alt",
-    "choice2": "title",
-    "choice3": "description",
-    "choice4": "text",
+    "question": "Which tag defines a radio button?",
+    "choice1": "<input type='radio'>",
+    "choice2": "<radio>",
+    "choice3": "<input>",
+    "choice4": "<option>",
     "answer": 1
   },
   {
-    "question": "Which attribute is used to open a link in a new tab in HTML?",
-    "choice1": "target='_blank'",
-    "choice2": "target='_self'",
-    "choice3": "target='_parent'",
-    "choice4": "target='_top'",
+    "question": "Which tag defines a dropdown list?",
+    "choice1": "<select>",
+    "choice2": "<dropdown>",
+    "choice3": "<list>",
+    "choice4": "<menu>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a semantic article in HTML?",
-    "choice1": "<article>",
-    "choice2": "<section>",
+    "question": "Which tag defines an option in a dropdown?",
+    "choice1": "<option>",
+    "choice2": "<item>",
+    "choice3": "<choice>",
+    "choice4": "<value>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a submit button?",
+    "choice1": "<input type='submit'>",
+    "choice2": "<button>",
+    "choice3": "<submit>",
+    "choice4": "Both <input type='submit'> and <button>",
+    "answer": 4
+  },
+  {
+    "question": "Which tag defines a textarea?",
+    "choice1": "<textarea>",
+    "choice2": "<text>",
+    "choice3": "<input type='text'>",
+    "choice4": "<textbox>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag defines a label for an input?",
+    "choice1": "<label>",
+    "choice2": "<legend>",
+    "choice3": "<title>",
+    "choice4": "<text>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag groups related form elements?",
+    "choice1": "<fieldset>",
+    "choice2": "<group>",
     "choice3": "<div>",
-    "choice4": "<content>",
+    "choice4": "<formgroup>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a semantic aside in HTML?",
-    "choice1": "<aside>",
-    "choice2": "<section>",
-    "choice3": "<div>",
-    "choice4": "<sidebar>",
+    "question": "Which tag defines a caption for a fieldset?",
+    "choice1": "<legend>",
+    "choice2": "<caption>",
+    "choice3": "<title>",
+    "choice4": "<header>",
     "answer": 1
   },
-  {
-    "question": "Which tag is used to define a semantic figure in HTML?",
-    "choice1": "<figure>",
-    "choice2": "<image>",
-    "choice3": "<picture>",
-    "choice4": "<img>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic header in HTML?",
-    "choice1": "<header>",
-    "choice2": "<head>",
-    "choice3": "<top>",
-    "choice4": "<start>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic footer in HTML?",
-    "choice1": "<footer>",
-    "choice2": "<bottom>",
-    "choice3": "<end>",
-    "choice4": "<last>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic main content in HTML?",
-    "choice1": "<main>",
-    "choice2": "<content>",
-    "choice3": "<body>",
-    "choice4": "<primary>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic navigation menu in HTML?",
-    "choice1": "<nav>",
-    "choice2": "<menu>",
-    "choice3": "<navigation>",
-    "choice4": "<links>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic section in HTML?",
-    "choice1": "<section>",
-    "choice2": "<div>",
-    "choice3": "<part>",
-    "choice4": "<area>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic summary for a <details> element in HTML?",
-    "choice1": "<summary>",
+ {
+    "question": "Which tag defines a caption for a fieldset?",
+    "choice1": "<legend>",
     "choice2": "<caption>",
     "choice3": "<title>",
     "choice4": "<header>",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a semantic time in HTML?",
-    "choice1": "<time>",
-    "choice2": "<date>",
-    "choice3": "<datetime>",
-    "choice4": "<timestamp>",
+    "question": "What does HTML stand for?",
+    "choice1": "Hyper Text Markup Language",
+    "choice2": "High Tech Modern Language",
+    "choice3": "Hyper Transfer Markup Language",
+    "choice4": "Home Tool Management Language",
     "answer": 1
   },
   {
-    "question": "Which tag is used to define a semantic mark in HTML?",
-    "choice1": "<mark>",
-    "choice2": "<highlight>",
-    "choice3": "<important>",
-    "choice4": "<emphasis>",
-    "answer": 1
+    "question": "Which tag is used to create a line break?",
+    "choice1": "<lb>",
+    "choice2": "<break>",
+    "choice3": "<br>",
+    "choice4": "<hr>",
+    "answer": 3
   },
   {
-    "question": "Which tag is used to define a semantic progress bar in HTML?",
-    "choice1": "<progress>",
-    "choice2": "<bar>",
-    "choice3": "<meter>",
-    "choice4": "<indicator>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic meter in HTML?",
-    "choice1": "<meter>",
-    "choice2": "<progress>",
-    "choice3": "<bar>",
-    "choice4": "<indicator>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic details disclosure in HTML?",
-    "choice1": "<details>",
-    "choice2": "<summary>",
-    "choice3": "<disclosure>",
-    "choice4": "<info>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic dialog box in HTML?",
-    "choice1": "<dialog>",
-    "choice2": "<popup>",
-    "choice3": "<window>",
-    "choice4": "<modal>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic output in HTML?",
-    "choice1": "<output>",
-    "choice2": "<result>",
-    "choice3": "<display>",
-    "choice4": "<value>",
-    "answer": 1
-  },
-  {
-    "question": "Which tag is used to define a semantic template in HTML?",
-    "choice1": "<template>",
-    "choice2": "<model>",
-    "choice3": "<structure>",
-    "choice4": "<blueprint>",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to disable an input element in HTML?",
-    "choice1": "disabled",
-    "choice2": "readonly",
-    "choice3": "inactive",
-    "choice4": "disable",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to make an input field required in HTML?",
-    "choice1": "required",
-    "choice2": "mandatory",
-    "choice3": "needed",
-    "choice4": "necessary",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the maximum length of an input field in HTML?",
-    "choice1": "maxlength",
-    "choice2": "max",
-    "choice3": "length",
-    "choice4": "limit",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the minimum value for an input field in HTML?",
-    "choice1": "min",
-    "choice2": "minimum",
-    "choice3": "low",
-    "choice4": "least",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the maximum value for an input field in HTML?",
-    "choice1": "max",
-    "choice2": "maximum",
-    "choice3": "high",
-    "choice4": "most",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify a placeholder text for an input field in HTML?",
-    "choice1": "placeholder",
-    "choice2": "hint",
-    "choice3": "text",
-    "choice4": "default",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the step value for an input field in HTML?",
-    "choice1": "step",
-    "choice2": "increment",
-    "choice3": "change",
-    "choice4": "interval",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the autocomplete behavior for an input field in HTML?",
-    "choice1": "autocomplete",
-    "choice2": "suggest",
-    "choice3": "auto",
-    "choice4": "complete",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the autofocus behavior for an input field in HTML?",
-    "choice1": "autofocus",
-    "choice2": "focus",
-    "choice3": "auto",
-    "choice4": "selected",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the pattern for an input field in HTML?",
-    "choice1": "pattern",
-    "choice2": "regex",
-    "choice3": "format",
-    "choice4": "rule",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the readonly behavior for an input field in HTML?",
-    "choice1": "readonly",
-    "choice2": "read-only",
-    "choice3": "disabled",
-    "choice4": "inactive",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the multiple selection behavior for a select element in HTML?",
-    "choice1": "multiple",
-    "choice2": "multi",
-    "choice3": "many",
-    "choice4": "select-all",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the size of a select element in HTML?",
-    "choice1": "size",
-    "choice2": "length",
-    "choice3": "width",
-    "choice4": "height",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the source of a script in HTML?",
-    "choice1": "src",
-    "choice2": "source",
-    "choice3": "path",
-    "choice4": "url",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the type of a script in HTML?",
-    "choice1": "type",
-    "choice2": "kind",
-    "choice3": "language",
-    "choice4": "format",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the defer behavior for a script in HTML?",
-    "choice1": "defer",
-    "choice2": "delay",
-    "choice3": "async",
-    "choice4": "wait",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the async behavior for a script in HTML?",
-    "choice1": "async",
-    "choice2": "defer",
-    "choice3": "delay",
-    "choice4": "wait",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the crossorigin behavior for a resource in HTML?",
-    "choice1": "crossorigin",
-    "choice2": "cross-origin",
-    "choice3": "external",
-    "choice4": "remote",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the integrity of a resource in HTML?",
-    "choice1": "integrity",
-    "choice2": "secure",
-    "choice3": "hash",
-    "choice4": "checksum",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the referrer policy for a link in HTML?",
-    "choice1": "referrerpolicy",
-    "choice2": "referrer",
-    "choice3": "policy",
-    "choice4": "security",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the download behavior for a link in HTML?",
-    "choice1": "download",
-    "choice2": "save",
-    "choice3": "file",
-    "choice4": "attachment",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the media type for a resource in HTML?",
-    "choice1": "type",
-    "choice2": "media",
-    "choice3": "format",
-    "choice4": "mime",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the language of an element in HTML?",
-    "choice1": "lang",
-    "choice2": "language",
-    "choice3": "locale",
-    "choice4": "region",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the direction of text in HTML?",
-    "choice1": "dir",
-    "choice2": "direction",
-    "choice3": "text-direction",
-    "choice4": "flow",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the tabindex for an element in HTML?",
-    "choice1": "tabindex",
-    "choice2": "tab",
-    "choice3": "index",
-    "choice4": "order",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the accesskey for an element in HTML?",
-    "choice1": "accesskey",
-    "choice2": "shortcut",
-    "choice3": "key",
-    "choice4": "hotkey",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the draggable behavior for an element in HTML?",
-    "choice1": "draggable",
-    "choice2": "drag",
-    "choice3": "move",
-    "choice4": "drop",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the spellcheck behavior for an element in HTML?",
-    "choice1": "spellcheck",
-    "choice2": "spelling",
-    "choice3": "check",
-    "choice4": "grammar",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the contenteditable behavior for an element in HTML?",
-    "choice1": "contenteditable",
-    "choice2": "editable",
-    "choice3": "edit",
-    "choice4": "modify",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the hidden behavior for an element in HTML?",
-    "choice1": "hidden",
-    "choice2": "hide",
-    "choice3": "invisible",
-    "choice4": "display",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the id for an element in HTML?",
-    "choice1": "id",
-    "choice2": "identifier",
-    "choice3": "name",
-    "choice4": "key",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the class for an element in HTML?",
-    "choice1": "class",
-    "choice2": "classname",
-    "choice3": "style",
-    "choice4": "type",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the style for an element in HTML?",
-    "choice1": "style",
-    "choice2": "css",
-    "choice3": "design",
-    "choice4": "theme",
-    "answer": 1
-  },
-  {
-    "question": "Which attribute is used to specify the title for an element in HTML?",
+    "question": "Which attribute specifies an alternate text for an image?",
     "choice1": "title",
-    "choice2": "tooltip",
-    "choice3": "info",
-    "choice4": "description",
+    "choice2": "src",
+    "choice3": "alt",
+    "choice4": "href",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to define an unordered list?",
+    "choice1": "<ol>",
+    "choice2": "<dl>",
+    "choice3": "<ul>",
+    "choice4": "<list>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag creates a hyperlink?",
+    "choice1": "<link>",
+    "choice2": "<a>",
+    "choice3": "<href>",
+    "choice4": "<url>",
+    "answer": 2
+  },
+  {
+    "question": "Which input type is used for a checkbox?",
+    "choice1": "check",
+    "choice2": "box",
+    "choice3": "input-check",
+    "choice4": "checkbox",
+    "answer": 4
+  },
+  {
+    "question": "Which tag defines a table row?",
+    "choice1": "<table>",
+    "choice2": "<tr>",
+    "choice3": "<td>",
+    "choice4": "<th>",
+    "answer": 2
+  },
+  {
+    "question": "Which HTML5 element represents a self-contained article?",
+    "choice1": "<section>",
+    "choice2": "<div>",
+    "choice3": "<article>",
+    "choice4": "<post>",
+    "answer": 3
+  },
+  {
+    "question": "Which attribute makes a form input required?",
+    "choice1": "mandatory",
+    "choice2": "validate",
+    "choice3": "must",
+    "choice4": "required",
+    "answer": 4
+  },
+  {
+    "question": "Which tag is used for the main content of a page?",
+    "choice1": "<body>",
+    "choice2": "<main>",
+    "choice3": "<content>",
+    "choice4": "<section>",
+    "answer": 2
+  },
+    {
+    "question": "Which tag is used to define the document's title, displayed in the browser tab?",
+    "choice1": "<header>",
+    "choice2": "<head>",
+    "choice3": "<title>",
+    "choice4": "<h1>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to embed an image in a webpage?",
+    "choice1": "<img>",
+    "choice2": "<image>",
+    "choice3": "<picture>",
+    "choice4": "<src>",
+    "answer": 1
+  },
+  {
+    "question": "Which attribute specifies the source of an image?",
+    "choice1": "href",
+    "choice2": "alt",
+    "choice3": "src",
+    "choice4": "link",
+    "answer": 3
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML?",
+    "choice1": "<p>",
+    "choice2": "<para>",
+    "choice3": "<text>",
+    "choice4": "<pg>",
+    "answer": 1
+  },
+  {
+    "question": "Which tag is used to define a header for a document or section?",
+    "choice1": "<top>",
+    "choice2": "<header>",
+    "choice3": "<head>",
+    "choice4": "<h1>",
+    "answer": 2
+  },
+  {
+    "question": "Which tag defines a hyperlink that links to an email address?",
+    "choice1": "<a href='call:+123'>",
+    "choice2": "<a href='email:john@example.com'>",
+    "choice3": "<a href='mailto:john@example.com'>",
+    "choice4": "<a href='send:john@example.com'>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to define a drop-down list?",
+    "choice1": "<input>",
+    "choice2": "<list>",
+    "choice3": "<select>",
+    "choice4": "<dropdown>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to define a section in a document?",
+    "choice1": "<div>",
+    "choice2": "<section>",
+    "choice3": "<article>",
+    "choice4": "<block>",
+    "answer": 2
+  },
+  {
+    "question": "What is the correct HTML for creating a text input field?",
+    "choice1": "<textfield>",
+    "choice2": "<text>",
+    "choice3": "<input type='text'>",
+    "choice4": "<input type='textfield'>",
+    "answer": 3
+  },
+  {
+    "question": "Which tag is used to define a list item?",
+    "choice1": "<li>",
+    "choice2": "<item>",
+    "choice3": "<list>",
+    "choice4": "<ol>",
     "answer": 1
   }
+ 
+ 
+  
 ]
