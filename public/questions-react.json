@@ -702,5 +702,85 @@
     "choice3": "They are reusable logic functions",
     "choice4": "All of the above",
     "answer": 4
+  },
+    {
+    "question": "What is the correct way to create a React element?",
+    "choice1": "React.createElement('div', null, 'Hello')",
+    "choice2": "React.create('div', 'Hello')",
+    "choice3": "new React.Element('div')",
+    "choice4": "React.element('div', {}, 'Hello')",
+    "answer": 1
+  },
+  {
+    "question": "Which hook is used to perform side effects in a functional component?",
+    "choice1": "useState",
+    "choice2": "useMemo",
+    "choice3": "useEffect",
+    "choice4": "useCallback",
+    "answer": 3
+  },
+  {
+    "question": "How do you pass data from a parent to a child component?",
+    "choice1": "Events",
+    "choice2": "State",
+    "choice3": "Props",
+    "choice4": "Context only",
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is required when rendering a list in React?",
+    "choice1": "className",
+    "choice2": "key",
+    "choice3": "id",
+    "choice4": "value",
+    "answer": 2
+  },
+  {
+    "question": "What does useState return?",
+    "choice1": "An array with the current state and a setter function",
+    "choice2": "An object with state and update method",
+    "choice3": "Only the current state",
+    "choice4": "A promise",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid way to update state in a functional component?",
+    "choice1": "setState(newState)",
+    "choice2": "setCount(count + 1)",
+    "choice3": "setUser(prev => ({ ...prev, name: 'John' }))",
+    "choice4": "useState is not used for state",
+    "answer": 1
+  },
+  {
+    "question": "Where should you NOT call a hook in React?",
+    "choice1": "Inside a functional component",
+    "choice2": "Inside a useEffect",
+    "choice3": "Inside a conditional (if statement)",
+    "choice4": "At the top level of a component",
+    "answer": 3
+  },
+  {
+    "question": "Which hook is used to access the history object for navigation?",
+    "choice1": "useHistory",
+    "choice2": "useRouter",
+    "choice3": "useNavigate",
+    "choice4": "useLocation",
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of React.Fragment?",
+    "choice1": "To add a CSS class",
+    "choice2": "To group elements without adding a DOM node",
+    "choice3": "To create a new context",
+    "choice4": "To delay rendering",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is true about controlled components?",
+    "choice1": "They are controlled by the DOM",
+    "choice2": "Their value is set by React state",
+    "choice3": "They cannot be styled",
+    "choice4": "They are deprecated",
+    "answer": 2
   }
 ]
