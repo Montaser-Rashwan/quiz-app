@@ -782,5 +782,85 @@
     "choice3": "They cannot be styled",
     "choice4": "They are deprecated",
     "answer": 2
+  },
+    {
+    "question": "Why is using the array index as a key in a list generally discouraged in React?",
+    "choice1": "It increases bundle size",
+    "choice2": "It can cause performance issues and state bugs when the list changes",
+    "choice3": "It breaks JSX syntax",
+    "choice4": "It only works with strings",
+    "answer": 2
+  },
+  {
+    "question": "Which React feature allows you to render children into a DOM node outside the parent component’s hierarchy?",
+    "choice1": "Fragments",
+    "choice2": "Context",
+    "choice3": "Portals",
+    "choice4": "Refs",
+    "answer": 3
+  },
+  {
+    "question": "What is the main purpose of React's <Suspense> component?",
+    "choice1": "To catch JavaScript errors in components",
+    "choice2": "To show a fallback UI while content is loading (e.g., lazy components)",
+    "choice3": "To delay rendering for performance",
+    "choice4": "To handle form validation",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a valid use case for React.lazy()?",
+    "choice1": "Loading images dynamically",
+    "choice2": "Importing a component dynamically for code splitting",
+    "choice3": "Fetching API data",
+    "choice4": "Creating animations",
+    "answer": 2
+  },
+  {
+    "question": "What does React 18's concurrent rendering enable?",
+    "choice1": "Blocking rendering only",
+    "choice2": "Interruptible and concurrent rendering for better user experience",
+    "choice3": "Removing JSX",
+    "choice4": "Replacing hooks",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is required when using React.lazy()?",
+    "choice1": "The component must be a class",
+    "choice2": "It must be wrapped in <Suspense> with a fallback",
+    "choice3": "It must be used in the root App",
+    "choice4": "It only works with useState",
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of an error boundary in React?",
+    "choice1": "To handle network errors",
+    "choice2": "To catch JavaScript errors in child components and display a fallback UI",
+    "choice3": "To validate forms",
+    "choice4": "To prevent re-renders",
+    "answer": 2
+  },
+  {
+    "question": "Which lifecycle method is used to catch errors in class components?",
+    "choice1": "componentDidUpdate",
+    "choice2": "getDerivedStateFromError",
+    "choice3": "componentDidCatch",
+    "choice4": "Both B and C",
+    "answer": 4
+  },
+  {
+    "question": "Can functional components be error boundaries?",
+    "choice1": "Yes, using useEffect",
+    "choice2": "Yes, using try/catch",
+    "choice3": "No, only class components can be error boundaries",
+    "choice4": "Yes, with useErrorBoundary hook",
+    "answer": 3
+  },
+  {
+    "question": "What is the role of the key prop when conditionally rendering multiple components with the same tag?",
+    "choice1": "It improves SEO",
+    "choice2": "It tells React to remount the component, resetting its state",
+    "choice3": "It enables animations",
+    "choice4": "It changes the CSS",
+    "answer": 2
   }
 ]
